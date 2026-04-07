@@ -8,11 +8,15 @@ import {
   Check,
   ChevronDown,
   ExternalLink,
+  FileText,
   Film,
   FlaskConical,
+  Gift,
   KeyRound,
   Map,
+  Monitor,
   Play,
+  ShoppingCart,
   Skull,
   Sparkles,
   Target,
@@ -298,7 +302,8 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
               const sectionIds = [
                 'release-date', 'trailer', 'story-theories', 'ending-setup',
                 'characters', 'villains', 'prototype', 'harley-sawyer',
-                'chapter-5-walkthrough', 'puzzle-codes', 'pressure-hand', 'tape-locations'
+                'chapter-5-walkthrough', 'puzzle-codes', 'pressure-hand', 'tape-locations',
+                'collectibles-guide', 'notes-documents', 'platforms', 'price-dlc'
               ]
               const sectionId = sectionIds[index]
 
@@ -927,6 +932,254 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 13: Collectibles Guide */}
+      <section id="collectibles-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full
+                            bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4 text-sm font-medium">
+              <Gift className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span>{t.modules.poppyCollectiblesGuide.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['poppyCollectiblesGuide']} locale={locale}>
+                {t.modules.poppyCollectiblesGuide.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.poppyCollectiblesGuide.subtitle}
+            </p>
+          </div>
+
+          <p className="text-muted-foreground text-center max-w-3xl mx-auto mb-10 scroll-reveal">
+            {t.modules.poppyCollectiblesGuide.intro}
+          </p>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+            {t.modules.poppyCollectiblesGuide.items.map((item: any, index: number) => (
+              <div key={index} className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors flex flex-col gap-3">
+                <div className="flex items-start justify-between gap-2">
+                  <h3 className="font-bold text-sm">{item.label}</h3>
+                  <span className="flex-shrink-0 text-xs px-2 py-1 rounded-full font-medium bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+                    {item.count}
+                  </span>
+                </div>
+                <ul className="space-y-1">
+                  {item.entries.map((entry: string, i: number) => (
+                    <li key={i} className="flex items-start gap-1.5 text-xs text-muted-foreground">
+                      <Check className="w-3 h-3 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                      {entry}
+                    </li>
+                  ))}
+                </ul>
+                <p className="text-xs text-muted-foreground pt-2 border-t border-border/50 italic">
+                  {item.summary}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-10 text-center scroll-reveal">
+            <a
+              href={t.modules.poppyCollectiblesGuide.cta.href}
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl
+                         bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                         hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors font-medium text-sm"
+            >
+              {t.modules.poppyCollectiblesGuide.cta.label}
+              <ArrowRight className="w-4 h-4" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Module 14: Notes and Documents */}
+      <section id="notes-documents" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full
+                            bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4 text-sm font-medium">
+              <FileText className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span>{t.modules.poppyNotesDocuments.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['poppyNotesDocuments']} locale={locale}>
+                {t.modules.poppyNotesDocuments.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.poppyNotesDocuments.subtitle}
+            </p>
+          </div>
+
+          <p className="text-muted-foreground text-center max-w-3xl mx-auto mb-10 scroll-reveal">
+            {t.modules.poppyNotesDocuments.intro}
+          </p>
+
+          <div className="scroll-reveal overflow-x-auto rounded-xl border border-border">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-[hsl(var(--nav-theme)/0.08)] border-b border-border">
+                  <th className="text-left px-4 py-3 font-semibold text-[hsl(var(--nav-theme-light))]">Area</th>
+                  <th className="text-center px-4 py-3 font-semibold text-[hsl(var(--nav-theme-light))] w-16">Notes</th>
+                  <th className="text-left px-4 py-3 font-semibold text-[hsl(var(--nav-theme-light))] hidden md:table-cell">Key Documents</th>
+                  <th className="text-left px-4 py-3 font-semibold text-[hsl(var(--nav-theme-light))] hidden lg:table-cell">Focus</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.poppyNotesDocuments.items.map((item: any, index: number) => (
+                  <tr key={index} className={`border-b border-border/50 hover:bg-white/5 transition-colors ${index % 2 === 0 ? '' : 'bg-white/[0.02]'}`}>
+                    <td className="px-4 py-3 font-medium">{item.section}</td>
+                    <td className="px-4 py-3 text-center">
+                      <span className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-[hsl(var(--nav-theme)/0.15)] text-[hsl(var(--nav-theme-light))] text-xs font-bold">
+                        {item.notes}
+                      </span>
+                    </td>
+                    <td className="px-4 py-3 text-muted-foreground hidden md:table-cell text-xs">{item.key_documents}</td>
+                    <td className="px-4 py-3 text-muted-foreground hidden lg:table-cell text-xs italic">{item.focus}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="mt-10 text-center scroll-reveal">
+            <a
+              href={t.modules.poppyNotesDocuments.cta.href}
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl
+                         bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                         hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors font-medium text-sm"
+            >
+              {t.modules.poppyNotesDocuments.cta.label}
+              <ArrowRight className="w-4 h-4" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Module 15: Platforms */}
+      <section id="platforms" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full
+                            bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4 text-sm font-medium">
+              <Monitor className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span>{t.modules.poppyPlatforms.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['poppyPlatforms']} locale={locale}>
+                {t.modules.poppyPlatforms.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.poppyPlatforms.subtitle}
+            </p>
+          </div>
+
+          <p className="text-muted-foreground text-center max-w-3xl mx-auto mb-10 scroll-reveal">
+            {t.modules.poppyPlatforms.intro}
+          </p>
+
+          <div className="scroll-reveal grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {t.modules.poppyPlatforms.items.map((item: any, index: number) => {
+              const isLive = item.status.includes('Live')
+              return (
+                <div key={index} className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors flex flex-col gap-3">
+                  <div className="flex items-start justify-between gap-2">
+                    <h3 className="font-bold">{item.platform}</h3>
+                    <span className={`flex-shrink-0 text-xs px-2 py-1 rounded-full font-medium ${
+                      isLive
+                        ? 'bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]'
+                        : 'bg-white/10 border border-border text-muted-foreground'
+                    }`}>
+                      {isLive ? 'Live' : 'Coming'}
+                    </span>
+                  </div>
+                  <p className="text-xs font-medium text-[hsl(var(--nav-theme-light))]">{item.status}</p>
+                  <p className="text-sm text-muted-foreground">{item.notes}</p>
+                </div>
+              )
+            })}
+          </div>
+
+          <div className="mt-10 text-center scroll-reveal">
+            <a
+              href={t.modules.poppyPlatforms.cta.href}
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl
+                         bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                         hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors font-medium text-sm"
+            >
+              {t.modules.poppyPlatforms.cta.label}
+              <ArrowRight className="w-4 h-4" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Module 16: Price and DLC */}
+      <section id="price-dlc" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full
+                            bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4 text-sm font-medium">
+              <ShoppingCart className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span>{t.modules.poppyPriceDlc.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['poppyPriceDlc']} locale={locale}>
+                {t.modules.poppyPriceDlc.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.poppyPriceDlc.subtitle}
+            </p>
+          </div>
+
+          <p className="text-muted-foreground text-center max-w-3xl mx-auto mb-10 scroll-reveal">
+            {t.modules.poppyPriceDlc.intro}
+          </p>
+
+          <div className="scroll-reveal overflow-x-auto rounded-xl border border-border">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-[hsl(var(--nav-theme)/0.08)] border-b border-border">
+                  <th className="text-left px-4 py-3 font-semibold text-[hsl(var(--nav-theme-light))]">Product</th>
+                  <th className="text-left px-4 py-3 font-semibold text-[hsl(var(--nav-theme-light))] hidden sm:table-cell">Type</th>
+                  <th className="text-center px-4 py-3 font-semibold text-[hsl(var(--nav-theme-light))]">Price</th>
+                  <th className="text-left px-4 py-3 font-semibold text-[hsl(var(--nav-theme-light))] hidden md:table-cell">Details</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.poppyPriceDlc.items.map((item: any, index: number) => (
+                  <tr key={index} className={`border-b border-border/50 hover:bg-white/5 transition-colors ${index % 2 === 0 ? '' : 'bg-white/[0.02]'}`}>
+                    <td className="px-4 py-3 font-medium">{item.product}</td>
+                    <td className="px-4 py-3 hidden sm:table-cell">
+                      <span className="text-xs px-2 py-1 rounded-full bg-white/10 border border-border text-muted-foreground">
+                        {item.type}
+                      </span>
+                    </td>
+                    <td className="px-4 py-3 text-center font-bold text-[hsl(var(--nav-theme-light))]">{item.price}</td>
+                    <td className="px-4 py-3 text-muted-foreground hidden md:table-cell text-xs">{item.details}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="mt-10 text-center scroll-reveal">
+            <a
+              href={t.modules.poppyPriceDlc.cta.href}
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl
+                         bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                         hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors font-medium text-sm"
+            >
+              {t.modules.poppyPriceDlc.cta.label}
+              <ArrowRight className="w-4 h-4" />
+            </a>
           </div>
         </div>
       </section>

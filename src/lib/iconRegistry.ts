@@ -37,6 +37,10 @@ export const iconRegistry: Record<string, LucideIcon> = {
   KeyRound: LucideIcons.KeyRound,
   Zap: LucideIcons.Zap,
   Tv: LucideIcons.Tv,
+  Gift: LucideIcons.Gift,
+  FileText: LucideIcons.FileText,
+  Monitor: LucideIcons.Monitor,
+  ShoppingCart: LucideIcons.ShoppingCart,
 
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,

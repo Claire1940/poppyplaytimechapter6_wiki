@@ -118,6 +118,26 @@
         "icon": "Tv",
         "title": "Poppy Playtime Chapter 6 Tape Locations",
         "description": "All Chapter 5 VHS tapes and audio log locations, including missable pickups."
+      },
+      {
+        "icon": "Gift",
+        "title": "Poppy Playtime Chapter 6 Collectibles Guide",
+        "description": "Find every plushie, golden collectible, and missable pickup with area-by-area tracking data."
+      },
+      {
+        "icon": "FileText",
+        "title": "Poppy Playtime Chapter 6 Notes and Documents",
+        "description": "Browse the full paper trail — 35+ readable notes organized by chapter area and story focus."
+      },
+      {
+        "icon": "Monitor",
+        "title": "Poppy Playtime Chapter 6 Platforms",
+        "description": "Track availability across Steam, Epic, consoles, and mobile as each platform rollout is confirmed."
+      },
+      {
+        "icon": "ShoppingCart",
+        "title": "Poppy Playtime Chapter 6 Price and DLC",
+        "description": "See the complete storefront pricing model — base game, individual chapters, and bundle options."
       }
     ]
   },
@@ -655,6 +675,264 @@
           "missable_tip": "Do the detour before pushing the cart all the way to the back vent."
         }
       ]
+    },
+    "poppyCollectiblesGuide": {
+      "eyebrow": "100% Completion",
+      "title": "Poppy Playtime Chapter 6 Collectibles Guide",
+      "subtitle": "Use the latest full-completion pattern from the series to prep your next perfect run. Chapter 5 sets the current benchmark with five pickup categories and 74 total trackable items.",
+      "intro": "For completionists, the most useful way to frame Chapter 6 is through the collectible structure already established in Chapter 5: main collectibles, cardboard cutouts, audio tapes, VHS tapes, and notes. This checklist highlights the biggest categories, the most valuable chase items, and the zones with the heaviest pickup density.",
+      "items": [
+        {
+          "label": "Full chapter tracker",
+          "count": "74 pickups",
+          "entries": [
+            "19 collectibles",
+            "35 notes",
+            "10 audio tapes",
+            "7 cardboard cutouts",
+            "3 VHS tapes"
+          ],
+          "summary": "The current series benchmark for a full-clear collection run."
+        },
+        {
+          "label": "Main collectibles",
+          "count": "19 items",
+          "entries": [
+            "12 Wrongside Outimal plushies and dolls",
+            "5 golden collectibles",
+            "Ms. Gracie's Playtime ID",
+            "Red Smoke Sample"
+          ],
+          "summary": "The core collectibles tab mixes character items, rare gold variants, and lore objects."
+        },
+        {
+          "label": "Golden set",
+          "count": "5 items",
+          "entries": [
+            "Golden Giblet",
+            "Golden Chum",
+            "Golden Lily",
+            "Golden Limon",
+            "Golden Prototype"
+          ],
+          "summary": "The cleanest rare-item subset to spotlight in a premium checklist."
+        },
+        {
+          "label": "Wrongside Outimals",
+          "count": "12 items",
+          "entries": [
+            "Bindle Boogie x2",
+            "Goober GUTZ x2",
+            "Blanky BLANKZ x2",
+            "Dizzy BOOBOO x2",
+            "Doodle Bones x2",
+            "Loopsy NOODLE x2"
+          ],
+          "summary": "The largest named collectible family in the current chapter structure."
+        },
+        {
+          "label": "Cardboard cutouts",
+          "count": "7 cutouts",
+          "entries": [
+            "Giblet",
+            "Chum Chompkin",
+            "Lily Lovebraids #1",
+            "Lily Lovebraids #2",
+            "Lily Lovebraids #3",
+            "Lily Lovebraids #4",
+            "Lily Lovebraids #5"
+          ],
+          "summary": "Cutouts unlock voice lines and work well as fast visual checklist items."
+        },
+        {
+          "label": "Audio and VHS media",
+          "count": "13 tapes",
+          "entries": [
+            "Audio: Sisters",
+            "Audio: Security Log-08081995-16",
+            "Audio: The Case",
+            "VHS: Experiment 1170",
+            "VHS: Three P's of Diorama Safety",
+            "VHS: How to Maintain Your–(Illegible)"
+          ],
+          "summary": "Small in number but high in story value — ideal for a lore-focused sub-checklist."
+        },
+        {
+          "label": "Best collection zones",
+          "count": "3 priority areas",
+          "entries": [
+            "Research & Development — 14 notes",
+            "The Doll House — 4 collectibles and 6 notes",
+            "Reanimation — 4 collectibles and 2 notes"
+          ],
+          "summary": "These sections carry the highest concentration of missable chapter-wide pickups."
+        }
+      ],
+      "cta": {
+        "label": "View Full Collectibles Guide",
+        "href": "/poppy-playtime-chapter-6-collectibles-guide"
+      }
+    },
+    "poppyNotesDocuments": {
+      "eyebrow": "Lore Archive",
+      "title": "Poppy Playtime Chapter 6 Notes and Documents",
+      "subtitle": "The current note trail in the series is already deep enough to support a dedicated lore archive. Chapter 5 alone contains 35 readable notes and documents spread across nine major sections.",
+      "intro": "Players searching Chapter 6 theories usually want one thing first: the paper trail. This table organizes the latest chapter's document structure by area, note count, and standout files so readers can catch up on the most important written evidence.",
+      "items": [
+        {
+          "section": "Harvest Processing Center 04",
+          "notes": "3",
+          "key_documents": "An Intercepted Communique; Shipping Manifest – July '96; Inventory – September '95",
+          "focus": "Opening logistics, shipments, and the first hard clues from the factory floor"
+        },
+        {
+          "section": "Recycling & Reclamation",
+          "notes": "3",
+          "key_documents": "Work Procedures – Recycling & Reclamation; Outimal Note; Wrongside Outimal Branding Note",
+          "focus": "Process rules, branding language, and early Wrongside Outimal context"
+        },
+        {
+          "section": "The Boilers",
+          "notes": "2",
+          "key_documents": "Giblet's Checklist; The Better Press, Issue 14",
+          "focus": "Local operations and character-facing material tied to Giblet"
+        },
+        {
+          "section": "Research & Development",
+          "notes": "14",
+          "key_documents": "Lab Report: Medium Growth & Plantlife; GrabPack Hands Rejection; Negation Compound Presentation; To Whomever Finds This",
+          "focus": "The biggest lore cluster — experimentation, backups, compounds, and internal fallout"
+        },
+        {
+          "section": "Testing",
+          "notes": "3",
+          "key_documents": "Conditioning Observations; Observation: Lily; Letter to Leith #2",
+          "focus": "Behavioral tracking and Lily-focused observation material"
+        },
+        {
+          "section": "The Doll House",
+          "notes": "6",
+          "key_documents": "Experiment 1468 Proposal; Music Sheet – Novice; Nursery Damage; Lily Journal",
+          "focus": "Lily's story layer, music-based discovery, and the strongest character-centric documents"
+        },
+        {
+          "section": "Reanimation",
+          "notes": "2",
+          "key_documents": "Dr. Akins Personal Letter 3; Experiment Notes",
+          "focus": "Late-stage medical and experiment-heavy reading toward the final stretch"
+        },
+        {
+          "section": "The End of the Line",
+          "notes": "1",
+          "key_documents": "L.P. Journal Entry",
+          "focus": "Endgame reading with strong payoff for theory and ending discussion"
+        }
+      ],
+      "cta": {
+        "label": "Read All Notes",
+        "href": "/poppy-playtime-chapter-6-notes-and-documents"
+      }
+    },
+    "poppyPlatforms": {
+      "eyebrow": "Availability",
+      "title": "Poppy Playtime Chapter 6 Platforms",
+      "subtitle": "The newest chapter storefront pattern is PC-first. Chapter 5 is live on Steam and Epic Games Store, while earlier official play-now pages confirm the franchise's broader console and mobile footprint.",
+      "intro": "For a Chapter 6 availability tracker, lead with the platforms already carrying the newest content, then keep the wider franchise platforms in a clear second-wave tracker. That matches how Poppy Playtime is currently surfaced across official platform pages and store listings.",
+      "items": [
+        {
+          "platform": "Steam",
+          "status": "Live — Newest Chapter",
+          "notes": "Official storefront for Chapter 5; requires the free base game; Windows 10/11"
+        },
+        {
+          "platform": "Epic Games Store",
+          "status": "Live — Newest Chapter",
+          "notes": "Chapter 5 listed as an Add-On; release date 02/18/26; Windows platform"
+        },
+        {
+          "platform": "PlayStation",
+          "status": "Franchise Platform",
+          "notes": "Official platform on the Chapter 4 play-now page; Chapter 5 store page not yet linked"
+        },
+        {
+          "platform": "Nintendo",
+          "status": "Franchise Platform",
+          "notes": "Official platform on the Chapter 4 play-now page; Chapter 5 store page not yet linked"
+        },
+        {
+          "platform": "Xbox",
+          "status": "Franchise Platform",
+          "notes": "Official cross-platform expansion footprint; Chapter 5 store page not yet linked"
+        },
+        {
+          "platform": "iOS",
+          "status": "Mobile Platform",
+          "notes": "Official platform on the Chapter 2 play-now page; mobile rollout tracker"
+        },
+        {
+          "platform": "Android",
+          "status": "Mobile Platform",
+          "notes": "Official platform on the Chapter 2 play-now page; mobile rollout tracker"
+        }
+      ],
+      "cta": {
+        "label": "Check Platform Status",
+        "href": "/poppy-playtime-chapter-6-platforms"
+      }
+    },
+    "poppyPriceDlc": {
+      "eyebrow": "Storefront Model",
+      "title": "Poppy Playtime Chapter 6 Price and DLC",
+      "subtitle": "The live storefront model is straightforward: the base game is free and includes Chapter 1, while later chapters are sold separately as paid DLC or add-ons. The current newest-chapter benchmark is $19.99.",
+      "intro": "The clearest way to explain Chapter 6 pricing is to show the structure players already see on live storefronts today. On both Steam and Epic, Chapter 1 sits inside the base game, while Chapters 2 through 5 are listed as separate paid content.",
+      "items": [
+        {
+          "product": "Poppy Playtime",
+          "type": "Base Game",
+          "price": "Free",
+          "details": "Includes Chapter 1; available on Steam and Epic Games Store"
+        },
+        {
+          "product": "Poppy Playtime – Chapter 2",
+          "type": "DLC / Add-On",
+          "price": "$9.99",
+          "details": "Separate paid chapter content on both Steam and Epic"
+        },
+        {
+          "product": "Poppy Playtime – Chapter 3",
+          "type": "DLC / Add-On",
+          "price": "$14.99",
+          "details": "Standalone chapter purchase; also part of Toybox 1"
+        },
+        {
+          "product": "Poppy Playtime – Chapter 4",
+          "type": "DLC / Add-On",
+          "price": "$19.99",
+          "details": "Newest price tier chapter on both storefronts"
+        },
+        {
+          "product": "Poppy Playtime – Chapter 5",
+          "type": "DLC / Add-On",
+          "price": "$19.99",
+          "details": "Steam states the purchase includes only the fifth chapter"
+        },
+        {
+          "product": "Poppy Playtime Toybox 1",
+          "type": "Bundle",
+          "price": "$16.23 – $19.99",
+          "details": "Bundle path for Chapter 2 and Chapter 3"
+        },
+        {
+          "product": "All Current Steam DLC",
+          "type": "DLC Total",
+          "price": "$64.96",
+          "details": "Combined current Steam total for Chapters 2 through 5"
+        }
+      ],
+      "cta": {
+        "label": "View Price Breakdown",
+        "href": "/poppy-playtime-chapter-6-price-and-dlc"
+      }
     }
   },
   "faq": {
