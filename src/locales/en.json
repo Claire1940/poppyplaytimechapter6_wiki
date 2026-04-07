@@ -98,6 +98,26 @@
         "icon": "FlaskConical",
         "title": "Poppy Playtime Chapter 6 Harley Sawyer",
         "description": "Who he was, what he built, and how his Chapter 5 return changes the stakes."
+      },
+      {
+        "icon": "Map",
+        "title": "Poppy Playtime Chapter 6 Chapter 5 Walkthrough",
+        "description": "Full step-by-step story walkthrough for Chapter 5 before entering Chapter 6."
+      },
+      {
+        "icon": "KeyRound",
+        "title": "Poppy Playtime Chapter 6 Puzzle Codes",
+        "description": "All Chapter 5 keycodes, passwords, and puzzle sequences in one fast-scan block."
+      },
+      {
+        "icon": "Zap",
+        "title": "Poppy Playtime Chapter 6 Pressure Hand Guide",
+        "description": "How to unlock and use the Pressure Hand upgrade in Chapter 5."
+      },
+      {
+        "icon": "Tv",
+        "title": "Poppy Playtime Chapter 6 Tape Locations",
+        "description": "All Chapter 5 VHS tapes and audio log locations, including missable pickups."
       }
     ]
   },
@@ -399,6 +419,240 @@
         {
           "title": "Why Chapter 5 Changes Everything",
           "content": "At the end of Chapter 5, the backup the Player is sent to recover is revealed to be Harley Sawyer. That twist pulls him out of archived history and places him directly into the next phase of the conflict around the Prototype."
+        }
+      ]
+    },
+    "poppyWalkthrough": {
+      "title": "Poppy Playtime Chapter 6 Chapter 5 Walkthrough",
+      "eyebrow": "Catch-Up Guide",
+      "subtitle": "This is the fastest clean route through Broken Things if you want to catch up on the story, key upgrades, and the biggest puzzle gates before Chapter 6.",
+      "intro": "Chapter 5 runs from the opening Huggy Wuggy escape through the Pressure Hand unlock, the memory puzzles, Lily Lovebraids' dollhouse sequence, and the Reanimation finale. Use this path to finish the chapter and arrive at the ending with the important story beats fresh in mind.",
+      "items": [
+        {
+          "step": 1,
+          "section": "Harvest Processing Center 04",
+          "objective": "Escape Huggy Wuggy and reach the lower labs",
+          "what_to_do": "Wait for the rear door to open, sprint through the vent route, crouch under the conveyor hazards, bend the metal panel on the left, and hit the blue scanner before the red-blue gate.",
+          "result": "You survive the opening chase and enter the first exploration-heavy lab section."
+        },
+        {
+          "step": 2,
+          "section": "Recycling & Reclamation",
+          "objective": "Navigate the dark hallways and get the key",
+          "what_to_do": "Follow the blacklight arrows, clear the side rooms, grab the Sisters audio log, then move through the stair room and collect the Recycling & Reclamation Key before regrouping with Giblet.",
+          "result": "This opens the route into the Boilers and sets up the first safer stretch of the chapter."
+        },
+        {
+          "step": 3,
+          "section": "The Boilers / Research & Development",
+          "objective": "Recover your GrabPack and unlock the Pressure Hand",
+          "what_to_do": "Climb Bron the Dinosaur to reclaim the GrabPack, drag the chained platform left to cross into the Main Office, use the blacklight on the whiteboard, flip it, and enter 0859 to open the Pressure Hand locker.",
+          "result": "You gain the chapter's first mandatory upgrade and unlock vent breaking, charged pushes, and several later puzzles."
+        },
+        {
+          "step": 4,
+          "section": "Testing / Extreme Aggression Under Stress",
+          "objective": "Collect the three memories and survive the Huggy Wuggy pressure sequence",
+          "what_to_do": "Use the machine room memory chip, then complete the Conditioning projector chain to reach the second memory, clear the red smoke by turning valves in the order Triangle, Star, Circle, Hexagon for the third memory route, and finish all three Huggy memory scenes.",
+          "result": "You open the machine door, advance the main story, and clear one of the chapter's most important lore gates."
+        },
+        {
+          "step": 5,
+          "section": "Sweet Street / The Dollhouse / Tea Time",
+          "objective": "Finish Lily Lovebraids' tasks and escape her mansion",
+          "what_to_do": "Cross Sweet Street, then in the Dollhouse retrieve Lily's three toys: the car toy by powering the garage, the piano toy by launching it and playing the music-sheet order, and the shower toy by using the balcony fire route. After the tea-party reveal, run the chase and keep moving until Lily is defeated.",
+          "result": "The Lily Lovebraids arc ends and the story turns toward Reanimation and the final backup objective."
+        },
+        {
+          "step": 6,
+          "section": "Reanimation / The End of the Line",
+          "objective": "Find the backup, clear Surgery and Grand Stitchery, then finish the train finale",
+          "what_to_do": "Solve the randomized lab code, use 231 for the observation corridor, enter Surgery 2 for the red VHS locker code 728, complete all four Grand Stitchery power tasks, reach the tram, pull yourself onto the train with the magnetic pads, and push through to the override terminal.",
+          "result": "You complete Chapter 5 and reach the ending sequence that directly sets up the next chapter."
+        }
+      ]
+    },
+    "poppyPuzzleCodes": {
+      "title": "Poppy Playtime Chapter 6 Puzzle Codes",
+      "eyebrow": "Quick Codes",
+      "subtitle": "Chapter 5 codes, passwords, and puzzle sequences pulled into one fast-scan block for players who want immediate solutions.",
+      "intro": "Broken Things uses number pads, symbol orders, hidden UV clues, and a few late-game doors that are easy to forget after a death or reload. This list covers the most common blockers players hit in Chapter 5.",
+      "items": [
+        {
+          "label": "Pressure Hand Locker",
+          "code": "0859",
+          "location": "Main Office after crossing from the Boilers area",
+          "use": "Unlocks the Pressure Hand upgrade",
+          "hint": "Use the blacklight on the whiteboard, flip it over, and read the hidden digits on the back."
+        },
+        {
+          "label": "Master Backup Files Locker",
+          "code": "560",
+          "location": "Engineering Workshop",
+          "use": "Opens the locker holding the Master Backup files",
+          "hint": "Use the UV clue on the whiteboard, inspect the SP shelf through the window, then confirm the marked container from the metal walkway."
+        },
+        {
+          "label": "Red Smoke Valve Puzzle",
+          "code": "Triangle → Star → Circle → Hexagon",
+          "location": "Pirate ship memory area",
+          "use": "Clears the smoke so you can continue the third memory path",
+          "hint": "Read the blacklight shapes on the wall upstairs, then turn the valves in that order before flipping the lever."
+        },
+        {
+          "label": "Emotion Keypad Door",
+          "code": "Happy → Happy → Disgust → Sad → Fear → Happy",
+          "location": "Conditioning corridor with the projector rooms",
+          "use": "Opens the optional hallway with the Experiment 1170 VHS tape",
+          "hint": "The face order is shown during the final Huggy memory breakout."
+        },
+        {
+          "label": "BLANKY Blankz Locker",
+          "code": "1936",
+          "location": "Projector arena during the Huggy distraction sequence",
+          "use": "Unlocks the optional collectible locker",
+          "hint": "The digits are scattered through the safe rooms around the arena perimeter."
+        },
+        {
+          "label": "Lily's Piano Puzzle",
+          "code": "Star → Diamond → Flower → Heart",
+          "location": "Upstairs music room in Lily Lovebraids' mansion",
+          "use": "Opens the piano and releases one tea-party toy",
+          "hint": "Use the Pressure Hand to launch the toy into the piano first, then play the order shown on the nearby sheet music."
+        },
+        {
+          "label": "Backup Red Door",
+          "code": "7802",
+          "location": "Late Reanimation lab room before the Surgery corridor",
+          "use": "Opens the route toward the Surgical and Observation areas",
+          "hint": "The four digits are hidden on separate paper clues in the same room."
+        },
+        {
+          "label": "Surgery Observation Corridor",
+          "code": "231",
+          "location": "Upper corridor above the Grand Stitchery",
+          "use": "Opens the locked observation doors leading into the surgery suites",
+          "hint": "Reveal the number on the wall between the doors with the blacklight."
+        },
+        {
+          "label": "Red VHS Tape Cabinet",
+          "code": "728",
+          "location": "Locker inside Surgery 2",
+          "use": "Unlocks the final red VHS tape cabinet",
+          "hint": "Break into Surgery 2, scan the wall with the blacklight, then enter the locker code."
+        },
+        {
+          "label": "Memories Machine Door",
+          "code": "6-digit personalized code",
+          "location": "Locked door behind the memory machine",
+          "use": "Opens the route after all three Huggy Wuggy memories",
+          "hint": "Complete all three memories to receive two digits per sequence on your own run."
+        }
+      ]
+    },
+    "poppyPressureHand": {
+      "title": "Poppy Playtime Chapter 6 Pressure Hand Guide",
+      "eyebrow": "Upgrade Guide",
+      "subtitle": "The Pressure Hand is the first major GrabPack upgrade in Chapter 5 and it is mandatory for progression. This guide helps you unlock it quickly and understand where it matters afterward.",
+      "intro": "Players first encounter the Pressure Hand in the early lab route after reclaiming the GrabPack. Once unlocked, it becomes the chapter's core tool for breaking vents, shattering barriers, moving carts, powering puzzle setups, and opening later routes in Testing, the Dollhouse, and Reanimation.",
+      "items": [
+        {
+          "step": 1,
+          "heading": "Reclaim the GrabPack",
+          "action": "Go to the Boilers area, walk up Bron the Dinosaur's tail, jump onto the nearby blue box, then leap to the overhanging blue pipe and follow the catwalk to the GrabPack.",
+          "result": "You get the base tool required to reach the Main Office and the Pressure Hand locker."
+        },
+        {
+          "step": 2,
+          "heading": "Build the bridge into the Main Office",
+          "action": "Use the GrabPack on the chained platform to your right and drag it all the way left so it becomes a makeshift bridge across the gap.",
+          "result": "This takes you into the Main Office where the Pressure Hand locker puzzle begins."
+        },
+        {
+          "step": 3,
+          "heading": "Reveal the locker clue",
+          "action": "Find the whiteboard, switch on the blacklight, follow the hidden arrow, and flip the board over to expose the concealed digits.",
+          "result": "The code shown on the board is 0859."
+        },
+        {
+          "step": 4,
+          "heading": "Open the locker and equip the upgrade",
+          "action": "Enter 0859 on the locker keypad and collect the Pressure Hand.",
+          "result": "Your GrabPack now gains a charged blast that can open new routes and solve several mandatory puzzles."
+        },
+        {
+          "step": 5,
+          "heading": "Use the charge correctly",
+          "action": "Attach the hand to a surface, hold the charge, then release to fire a pressurized blast. A longer charge produces a stronger impact.",
+          "result": "You can now break vents, glass, icy or blocked surfaces, and push objects or buttons that regular hands cannot move."
+        },
+        {
+          "step": 6,
+          "heading": "Watch for the first important uses",
+          "action": "Use the Pressure Hand to break the vent after the locker, move heavy carts in Research & Development, solve Dollhouse toy puzzles, break into Surgery 2, and finish the Grand Stitchery pressure setup.",
+          "result": "These are the main story checkpoints where the upgrade becomes part of the critical path."
+        }
+      ]
+    },
+    "poppyTapeLocations": {
+      "title": "Poppy Playtime Chapter 6 Tape Locations",
+      "eyebrow": "Collectibles",
+      "subtitle": "Chapter 5 has three VHS tapes and ten audio logs — several are easy to miss because the game locks players out of earlier rooms after autosaves.",
+      "intro": "Lore players searching for Chapter 6 clues often go back to Broken Things to replay tapes, relisten to logs, and reconnect character reveals with the late-game ending. This list surfaces the most important VHS pickups and easiest-to-miss audio logs.",
+      "items": [
+        {
+          "name": "Experiment 1170",
+          "type": "VHS",
+          "chapter_area": "Testing / Conditioning",
+          "location": "On the floor behind the emotion keypad door in the corridor with the eight conditioning rooms.",
+          "unlock_or_route": "Enter Happy → Happy → Disgust → Sad → Fear → Happy to open the hallway.",
+          "playback": "Use the cyan TV in the Conditioning Room at the end of the corridor.",
+          "missable_tip": "Grab it during the three-memories section before pushing too far ahead."
+        },
+        {
+          "name": "Three P's of Diorama Safety",
+          "type": "VHS",
+          "chapter_area": "Sweet Street",
+          "location": "On the climbing-wall ramp in the playground at the first stop of the ice-cream truck ride.",
+          "unlock_or_route": "Climb the frame from the back side of the playground and pick it up before leaving the area.",
+          "playback": "Use the yellow TV in the Toy Treehouse above the playground.",
+          "missable_tip": "Do this before you leave the playground route and continue through Sweet Street."
+        },
+        {
+          "name": "How to Maintain Your–(Illegible)",
+          "type": "VHS",
+          "chapter_area": "Reanimation / Surgery 2",
+          "location": "Inside the locked locker in Surgery 2.",
+          "unlock_or_route": "Break both cracked windows, route power into Surgery 2, then enter 728 on the locker.",
+          "playback": "Use the VCR in nearby Surgery 1.",
+          "missable_tip": "Pick it up before finishing Grand Stitchery and moving into the final chapter stretch."
+        },
+        {
+          "name": "Sisters",
+          "type": "Audio Log",
+          "chapter_area": "Recycling & Reclamation",
+          "location": "Through the left-side door near the bathroom and tent detour on the blacklight-arrow route.",
+          "unlock_or_route": "Crawl under the tent for the side path, then enter the left door to collect the log before taking the stairs-room route to the key.",
+          "playback": "Listen from the inventory audio log menu.",
+          "missable_tip": "Easy to skip if you go straight for the key path."
+        },
+        {
+          "name": "Security Log - 08081995-16",
+          "type": "Audio Log",
+          "chapter_area": "The Boilers",
+          "location": "Inside the locked room reached through the fallen vent after leaving Giblet's hideout.",
+          "unlock_or_route": "Drop into the large room, climb into the fallen vent, crawl through, and collect the cassette before leaving the room.",
+          "playback": "Listen from the inventory audio log menu.",
+          "missable_tip": "Pick it up before following the obvious unlocked-door route forward."
+        },
+        {
+          "name": "The Case",
+          "type": "Audio Log",
+          "chapter_area": "Research & Development",
+          "location": "In the right corner of the middle walkway reached after the first Pressure Hand cart push.",
+          "unlock_or_route": "Use the Pressure Hand to move the cart, jump to the middle walkway for the detour, grab the cassette, then return and continue the main path.",
+          "playback": "Listen from the inventory audio log menu.",
+          "missable_tip": "Do the detour before pushing the cart all the way to the back vent."
         }
       ]
     }

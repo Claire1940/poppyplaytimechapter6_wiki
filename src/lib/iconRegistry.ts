@@ -33,6 +33,10 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Skull: LucideIcons.Skull,
   Target: LucideIcons.Target,
   FlaskConical: LucideIcons.FlaskConical,
+  Map: LucideIcons.Map,
+  KeyRound: LucideIcons.KeyRound,
+  Zap: LucideIcons.Zap,
+  Tv: LucideIcons.Tv,
 
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,

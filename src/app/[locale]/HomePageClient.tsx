@@ -10,11 +10,15 @@ import {
   ExternalLink,
   Film,
   FlaskConical,
+  KeyRound,
+  Map,
   Play,
   Skull,
   Sparkles,
   Target,
+  Tv,
   Users,
+  Zap,
 } from 'lucide-react'
 import Link from 'next/link'
 import { useMessages } from 'next-intl'
@@ -150,6 +154,9 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
   const [endingExpanded, setEndingExpanded] = useState<number | null>(null)
   const [prototypeExpanded, setPrototypeExpanded] = useState<number | null>(null)
   const [harleyExpanded, setHarleyExpanded] = useState<number | null>(null)
+  // Accordion states for modules 9-12
+  const [walkthroughExpanded, setWalkthroughExpanded] = useState<number | null>(null)
+  const [codesExpanded, setCodesExpanded] = useState<number | null>(null)
 
   // Scroll reveal animation
   useEffect(() => {
@@ -290,7 +297,8 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             {t.tools.cards.map((card: any, index: number) => {
               const sectionIds = [
                 'release-date', 'trailer', 'story-theories', 'ending-setup',
-                'characters', 'villains', 'prototype', 'harley-sawyer'
+                'characters', 'villains', 'prototype', 'harley-sawyer',
+                'chapter-5-walkthrough', 'puzzle-codes', 'pressure-hand', 'tape-locations'
               ]
               const sectionId = sectionIds[index]
 
@@ -689,6 +697,234 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                     <p className="text-muted-foreground text-sm">{item.content}</p>
                   </div>
                 )}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 标准横幅 728×90 */}
+      <AdBanner type="banner-728x90" adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90} />
+
+      {/* Module 9: Chapter 5 Walkthrough */}
+      <section id="chapter-5-walkthrough" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full
+                            bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4 text-sm font-medium">
+              <Map className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span>{t.modules.poppyWalkthrough.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['poppyWalkthrough']} locale={locale}>
+                {t.modules.poppyWalkthrough.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.poppyWalkthrough.subtitle}
+            </p>
+          </div>
+
+          <p className="text-muted-foreground text-center max-w-3xl mx-auto mb-10 scroll-reveal">
+            {t.modules.poppyWalkthrough.intro}
+          </p>
+
+          <div className="scroll-reveal space-y-4">
+            {t.modules.poppyWalkthrough.items.map((item: any, index: number) => (
+              <div key={index} className="border border-border rounded-xl overflow-hidden">
+                <button
+                  onClick={() => setWalkthroughExpanded(walkthroughExpanded === index ? null : index)}
+                  className="w-full flex items-center justify-between p-5 text-left hover:bg-white/5 transition-colors"
+                >
+                  <div className="flex items-center gap-3 pr-4">
+                    <span className="flex-shrink-0 w-8 h-8 rounded-full bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center text-sm font-bold text-[hsl(var(--nav-theme-light))]">
+                      {item.step}
+                    </span>
+                    <div className="text-left">
+                      <div className="font-semibold">{item.section}</div>
+                      <div className="text-sm text-muted-foreground">{item.objective}</div>
+                    </div>
+                  </div>
+                  <ChevronDown className={`w-5 h-5 flex-shrink-0 transition-transform text-[hsl(var(--nav-theme-light))] ${walkthroughExpanded === index ? 'rotate-180' : ''}`} />
+                </button>
+                {walkthroughExpanded === index && (
+                  <div className="px-5 pb-5 space-y-3">
+                    <div className="p-4 bg-white/5 rounded-lg">
+                      <p className="text-sm font-medium mb-1 text-[hsl(var(--nav-theme-light))]">What to do</p>
+                      <p className="text-sm text-muted-foreground">{item.what_to_do}</p>
+                    </div>
+                    <div className="flex items-start gap-2 p-3 bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.2)] rounded-lg">
+                      <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                      <p className="text-sm text-muted-foreground">{item.result}</p>
+                    </div>
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 移动端横幅 320×50 */}
+      <AdBanner type="banner-320x50" adKey={process.env.NEXT_PUBLIC_AD_MOBILE_320X50} />
+
+      {/* Module 10: Puzzle Codes */}
+      <section id="puzzle-codes" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full
+                            bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4 text-sm font-medium">
+              <KeyRound className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span>{t.modules.poppyPuzzleCodes.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['poppyPuzzleCodes']} locale={locale}>
+                {t.modules.poppyPuzzleCodes.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.poppyPuzzleCodes.subtitle}
+            </p>
+          </div>
+
+          <p className="text-muted-foreground text-center max-w-3xl mx-auto mb-10 scroll-reveal">
+            {t.modules.poppyPuzzleCodes.intro}
+          </p>
+
+          <div className="scroll-reveal space-y-3">
+            {t.modules.poppyPuzzleCodes.items.map((item: any, index: number) => (
+              <div key={index} className="border border-border rounded-xl overflow-hidden">
+                <button
+                  onClick={() => setCodesExpanded(codesExpanded === index ? null : index)}
+                  className="w-full flex items-center justify-between p-5 text-left hover:bg-white/5 transition-colors"
+                >
+                  <div className="flex items-center gap-4 pr-4 min-w-0">
+                    <div className="flex-shrink-0 px-3 py-1.5 rounded-lg bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.3)]">
+                      <span className="text-sm font-mono font-bold text-[hsl(var(--nav-theme-light))] whitespace-nowrap">{item.code}</span>
+                    </div>
+                    <div className="min-w-0">
+                      <div className="font-semibold truncate">{item.label}</div>
+                      <div className="text-xs text-muted-foreground truncate">{item.use}</div>
+                    </div>
+                  </div>
+                  <ChevronDown className={`w-5 h-5 flex-shrink-0 transition-transform text-[hsl(var(--nav-theme-light))] ${codesExpanded === index ? 'rotate-180' : ''}`} />
+                </button>
+                {codesExpanded === index && (
+                  <div className="px-5 pb-5 grid grid-cols-1 md:grid-cols-2 gap-3">
+                    <div className="p-3 bg-white/5 rounded-lg">
+                      <p className="text-xs font-medium text-[hsl(var(--nav-theme-light))] mb-1">Location</p>
+                      <p className="text-sm text-muted-foreground">{item.location}</p>
+                    </div>
+                    <div className="p-3 bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.2)] rounded-lg">
+                      <p className="text-xs font-medium text-[hsl(var(--nav-theme-light))] mb-1">Hint</p>
+                      <p className="text-sm text-muted-foreground">{item.hint}</p>
+                    </div>
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 中型横幅 468×60 */}
+      <AdBanner type="banner-468x60" adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60} />
+
+      {/* Module 11: Pressure Hand Guide */}
+      <section id="pressure-hand" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full
+                            bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4 text-sm font-medium">
+              <Zap className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span>{t.modules.poppyPressureHand.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['poppyPressureHand']} locale={locale}>
+                {t.modules.poppyPressureHand.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.poppyPressureHand.subtitle}
+            </p>
+          </div>
+
+          <p className="text-muted-foreground text-center max-w-3xl mx-auto mb-10 scroll-reveal">
+            {t.modules.poppyPressureHand.intro}
+          </p>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
+            {t.modules.poppyPressureHand.items.map((item: any, index: number) => (
+              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors flex flex-col gap-3">
+                <div className="flex items-center gap-3">
+                  <span className="flex-shrink-0 w-8 h-8 rounded-full bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center text-sm font-bold text-[hsl(var(--nav-theme-light))]">
+                    {item.step}
+                  </span>
+                  <h3 className="font-bold">{item.heading}</h3>
+                </div>
+                <p className="text-sm text-muted-foreground">{item.action}</p>
+                <div className="flex items-start gap-2 pt-2 border-t border-border/50">
+                  <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                  <span className="text-xs text-muted-foreground">{item.result}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 12: Tape Locations */}
+      <section id="tape-locations" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full
+                            bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4 text-sm font-medium">
+              <Tv className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span>{t.modules.poppyTapeLocations.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['poppyTapeLocations']} locale={locale}>
+                {t.modules.poppyTapeLocations.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.poppyTapeLocations.subtitle}
+            </p>
+          </div>
+
+          <p className="text-muted-foreground text-center max-w-3xl mx-auto mb-10 scroll-reveal">
+            {t.modules.poppyTapeLocations.intro}
+          </p>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
+            {t.modules.poppyTapeLocations.items.map((item: any, index: number) => (
+              <div key={index} className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors flex flex-col gap-3">
+                <div className="flex items-start justify-between gap-2">
+                  <h3 className="font-bold">{item.name}</h3>
+                  <span className={`flex-shrink-0 text-xs px-2 py-1 rounded-full font-medium ${
+                    item.type === 'VHS'
+                      ? 'bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]'
+                      : 'bg-white/10 border border-border text-muted-foreground'
+                  }`}>
+                    {item.type}
+                  </span>
+                </div>
+                <span className="text-xs text-muted-foreground font-medium">{item.chapter_area}</span>
+                <p className="text-sm text-muted-foreground">{item.location}</p>
+                <div className="space-y-2 pt-2 border-t border-border/50">
+                  <div>
+                    <span className="text-xs font-medium text-[hsl(var(--nav-theme-light))]">Route: </span>
+                    <span className="text-xs text-muted-foreground">{item.unlock_or_route}</span>
+                  </div>
+                  <div>
+                    <span className="text-xs font-medium text-[hsl(var(--nav-theme-light))]">Playback: </span>
+                    <span className="text-xs text-muted-foreground">{item.playback}</span>
+                  </div>
+                  <div className="flex items-start gap-1.5">
+                    <Check className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                    <span className="text-xs text-muted-foreground">{item.missable_tip}</span>
+                  </div>
+                </div>
               </div>
             ))}
           </div>
