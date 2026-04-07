@@ -1,812 +1,1163 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "description": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura sandbox de voxel surreal no Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricação, biomas, conquistas, sobrevivência, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "ogDescription": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura sandbox de voxel surreal no Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "twitterDescription": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas e dicas de sobrevivência para o sandbox de voxel surreal no Steam."
+      "title": "Poppy Playtime Chapter 6 - Release, Trailer & Theories",
+      "description": "Track Poppy Playtime Chapter 6 release news, trailer clues, story theories, Prototype updates, and Chapter 5 ending fallout in one fast horror guide hub.",
+      "keywords": "Poppy Playtime Chapter 6, Poppy Playtime, release date, trailer, Prototype, theories, ending",
+      "ogTitle": "Poppy Playtime Chapter 6 - Release, Trailer & Theories",
+      "ogDescription": "Track Poppy Playtime Chapter 6 release news, trailer clues, story theories, Prototype updates, and Chapter 5 ending fallout in one fast horror guide hub.",
+      "twitterTitle": "Poppy Playtime Chapter 6 - Release, Trailer & Theories",
+      "twitterDescription": "Track Poppy Playtime Chapter 6 release news, trailer clues, story theories, Prototype updates, and Chapter 5 ending fallout."
     }
   },
   "nav": {
-    "release": "Lançamento",
+    "release": "Release",
     "trailer": "Trailer",
-    "guide": "Guia",
-    "characters": "Personagens",
-    "news": "Notícias",
-    "movie": "Filme",
+    "guide": "Guide",
+    "characters": "Characters",
+    "news": "News",
+    "movie": "Movie",
     "mobile": "Mobile",
     "fanmade": "Fan Made"
   },
   "common": {
-    "home": "Início",
-    "more": "Mais",
-    "playNow": "Jogue no Steam",
-    "switchLanguage": "Alterar Idioma",
-    "switchTheme": "Alterar Tema",
-    "lightMode": "Modo Claro",
-    "darkMode": "Modo Escuro",
-    "notFound": "Página Não Encontrada",
-    "notFoundDescription": "A página que você está procurando não existe.",
-    "backToHome": "Voltar ao Início",
-    "relatedArticles": "Artigos Relacionados",
-    "readMore": "Leia Mais"
+    "home": "Home",
+    "more": "More",
+    "playNow": "Play on Steam",
+    "switchLanguage": "Switch Language",
+    "switchTheme": "Switch Theme",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode",
+    "notFound": "Page Not Found",
+    "notFoundDescription": "The page you are looking for does not exist.",
+    "backToHome": "Back to Home",
+    "relatedArticles": "Related Articles",
+    "readMore": "Read More"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de Sobrevivência Voxel",
+    "badge": "Horror Puzzle Sequel Tracker",
     "title": "Poppy Playtime Chapter 6",
-    "description": "Explore biomas oníricos, combine itens com Apotheosis, construa livremente e sobreviva a criaturas estranhas neste sandbox surreal de mundo aberto no Steam.",
-    "getFreeCodesCTA": "Explore o Guia de Criação",
-    "playOnSteamCTA": "Jogue no Steam",
+    "description": "Follow release-watch updates, trailer breakdowns, lore theories, Prototype clues, and Chapter 5 fallout for the next Poppy Playtime chapter.",
+    "getFreeCodesCTA": "Track Release News",
+    "playOnSteamCTA": "Official Site",
     "stats": {
       "stat1": {
-        "value": "1.325",
-        "label": "Jogadores Online"
+        "value": "5",
+        "label": "Released Chapters"
       },
       "stat2": {
-        "value": "1.986",
-        "label": "Pico de CCU"
+        "value": "Feb 18, 2026",
+        "label": "Latest Official Release"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Avaliações Positivas"
+        "value": "60M+",
+        "label": "Latest Trailer Views"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Data de Lançamento"
+        "value": "7,432",
+        "label": "Chapter 5 Purchaser Reviews"
       }
     }
   },
   "gameFeature": {
-    "title": "Jogabilidade de Lucid Blocks",
-    "description": "Explore biomas surreais, funda itens com Apotheosis e sobreviva a criaturas estranhas neste sandbox de voxel onírico no Steam."
+    "title": "Poppy Playtime Chapter 6 Overview",
+    "description": "A horror puzzle experience developed by Mob Entertainment, continuing the Poppy Playtime series with mystery, survival, and dark factory lore."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Recursos",
-    "subtitle": "Tudo o que você precisa para explorar, criar e sobreviver em Lucid Blocks",
+    "title": "Explore",
+    "titleHighlight": "Chapter 6 Guides",
+    "subtitle": "Navigate to key sections — release status, trailers, story theories, and ending breakdown.",
     "cards": [
       {
+        "icon": "Calendar",
+        "title": "Poppy Playtime Chapter 6 Release Date",
+        "description": "Official status, cadence analysis, and the current timing window for the next chapter."
+      },
+      {
+        "icon": "Play",
+        "title": "Poppy Playtime Chapter 6 Trailer",
+        "description": "Official teasers, cinematic trailers, and gameplay reveals from the Chapter 5 rollout."
+      },
+      {
         "icon": "BookOpen",
-        "title": "Guia para Iniciantes",
-        "description": "Primeiros passos, exploração e progressão inicial"
+        "title": "Poppy Playtime Chapter 6 Story Theories",
+        "description": "The strongest Chapter 6 theories grounded in the Chapter 5 cliffhanger and wider lore."
       },
       {
-        "icon": "Sparkles",
-        "title": "Criação de Apotheosis",
-        "description": "Sistema de fusão livre e receitas iniciais"
+        "icon": "Film",
+        "title": "Poppy Playtime Chapter 6 Ending Setup",
+        "description": "Chapter 5 ending decoded: the Prototype confrontation, Poppy's capture, and Sawyer's return."
       },
       {
-        "icon": "Hammer",
-        "title": "Ferramentas e Armas",
-        "description": "Frost Pick, Azrael, __PROTECTED_6a765cb2__ e mais"
+        "icon": "Users",
+        "title": "Poppy Playtime Chapter 6 Characters",
+        "description": "Key allies, survivors, and carryover threats most likely to shape the next chapter."
       },
       {
-        "icon": "Package",
-        "title": "Armazenamento e Inventário",
-        "description": "Cache Cubes, Armários e armazenamento de Qualia"
+        "icon": "Skull",
+        "title": "Poppy Playtime Chapter 6 Villains",
+        "description": "Main antagonists and wildcard forces carrying the most story weight into Chapter 6."
       },
       {
-        "icon": "Home",
-        "title": "Qualia e Construção de Base",
-        "description": "Qualia Pessoal e configuração da base principal"
+        "icon": "Target",
+        "title": "Poppy Playtime Chapter 6 The Prototype",
+        "description": "Identity, series role, Chapter 5 actions, and why every theory circles back to him."
       },
       {
-        "icon": "Eye",
-        "title": "Regiões do Mundo",
-        "description": "Fog Meadow, Essence Morass e mais"
+        "icon": "FlaskConical",
+        "title": "Poppy Playtime Chapter 6 Harley Sawyer",
+        "description": "Who he was, what he built, and how his Chapter 5 return changes the stakes."
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Criaturas e Inimigos",
-        "description": "Manikins, aranhas e como sobreviver"
+        "icon": "Map",
+        "title": "Poppy Playtime Chapter 6 Chapter 5 Walkthrough",
+        "description": "Full step-by-step story walkthrough for Chapter 5 before entering Chapter 6."
       },
       {
-        "icon": "ArrowRight",
-        "title": "Equipamento de Mobilidade",
-        "description": "__PROTECTED_6a765cb2__, Glider Glove, __PROTECTED_163b9bec__"
+        "icon": "KeyRound",
+        "title": "Poppy Playtime Chapter 6 Puzzle Codes",
+        "description": "All Chapter 5 keycodes, passwords, and puzzle sequences in one fast-scan block."
       },
       {
-        "icon": "TrendingUp",
-        "title": "Cultivo e Crescimento",
-        "description": "Progressão de sementes e coleta de materiais"
+        "icon": "Zap",
+        "title": "Poppy Playtime Chapter 6 Pressure Hand Guide",
+        "description": "How to unlock and use the Pressure Hand upgrade in Chapter 5."
       },
       {
-        "icon": "Star",
-        "title": "Melhores Desbloqueios Iniciais",
-        "description": "Melhorias prioritárias para a primeira hora"
+        "icon": "Tv",
+        "title": "Poppy Playtime Chapter 6 Tape Locations",
+        "description": "All Chapter 5 VHS tapes and audio log locations, including missable pickups."
       },
       {
-        "icon": "ClipboardCheck",
-        "title": "Rastreador de Conquistas",
-        "description": "Todas as 19 conquistas e condições de Steam"
+        "icon": "Gift",
+        "title": "Poppy Playtime Chapter 6 Collectibles Guide",
+        "description": "Find every plushie, golden collectible, and missable pickup with area-by-area tracking data."
       },
       {
-        "icon": "MessageCircle",
-        "title": "FAQ Singleplayer",
-        "description": "Dúvidas sobre plataforma, preço, cooperativo e idioma"
+        "icon": "FileText",
+        "title": "Poppy Playtime Chapter 6 Notes and Documents",
+        "description": "Browse the full paper trail — 35+ readable notes organized by chapter area and story focus."
       },
       {
-        "icon": "Gamepad2",
-        "title": "Steam Deck e Controle",
-        "description": "Configuração do Proton 9.0.4 e dicas de controle"
+        "icon": "Monitor",
+        "title": "Poppy Playtime Chapter 6 Platforms",
+        "description": "Track availability across Steam, Epic, consoles, and mobile as each platform rollout is confirmed."
       },
       {
-        "icon": "Settings",
-        "title": "Configurações e Acessibilidade",
-        "description": "Ocultar mãos, __PROTECTED_38625270__ e opções de exibição"
-      },
-      {
-        "icon": "Clock",
-        "title": "Atualizações e Notas de Patch",
-        "description": "Correções recentes e notas do roadmap"
-      },
-      {
-        "icon": "Shield",
-        "title": "Correção de Travamentos",
-        "description": "Verificação de __PROTECTED_38625270__, caminho dos logs e relato de bugs"
+        "icon": "ShoppingCart",
+        "title": "Poppy Playtime Chapter 6 Price and DLC",
+        "description": "See the complete storefront pricing model — base game, individual chapters, and bundle options."
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Guia para Iniciantes de Lucid Blocks",
-      "displayType": "steps",
-      "intro": "Comece aprendendo como a exploração, a fusão e a progressão se conectam. Lucid Blocks recompensa a experimentação, portanto, o progresso inicial vem da coleta de materiais incomuns, do teste de combinações e do desbloqueio de sua Qualia pessoal.",
-      "steps": [
-        {
-          "title": "Explore Antes de se Comprometer",
-          "description": "Caminhe para fora, mine blocos comuns e guarde quaisquer itens estranhos que encontrar. O progresso inicial foca menos em missões fixas e mais em descobrir no que os materiais podem se tornar."
-        },
-        {
-          "title": "Desbloqueie sua Qualia Pessoal Cedo",
-          "description": "Sua Qualia pessoal é um dos marcos iniciais mais importantes. Ela oferece um lugar confiável para se reagrupar e construir ao redor."
-        },
-        {
-          "title": "Use Ósmio para um Progresso Inicial Rápido",
-          "description": "O Ósmio é um dos materiais iniciais mais úteis. Uma rota inicial popular é combinar Ósmio com gravetos para criar uma Picareta de Gelo para mineração rápida."
-        },
-        {
-          "title": "Registre Boas Fusões",
-          "description": "Mantenha um registro das combinações bem-sucedidas em seu diário. Lucid Blocks possui muitos caminhos de fusão possíveis, então anotar resultados úteis economiza muito tempo."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis não requer uma lista de receitas fixa.",
-        "A geração de mundo infinita significa que mover-se para lugares mais altos ou mais profundos pode revelar materiais completamente diferentes.",
-        "Ferramentas de movimento e equipamentos utilitários tornam-se um grande reforço na qualidade de vida assim que você começa a desbloqueá-los.",
-        "Perder-se no início é normal, mas ferramentas úteis, armazenamento e opções de movimento crescem rapidamente assim que suas primeiras boas fusões começam a funcionar."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Criação de Apotheosis em Lucid Blocks",
-      "displayType": "cards",
-      "intro": "Apotheosis é o sistema de fusão irrestrito do jogo. Em vez de memorizar um livro de receitas tradicional, você combina materiais, observa o resultado e constrói seu próprio conhecimento de criação ao longo do tempo.",
-      "cards": [
-        {
-          "name": "Fusão de Forma Livre",
-          "description": "Apotheosis permite fundir diferentes itens sem a necessidade de seguir uma lista de receitas fixa."
-        },
-        {
-          "name": "Múltiplos Resultados Úteis",
-          "description": "Materiais diferentes costumam levar a certos resultados. Descobertas da comunidade mostram que insumos semelhantes ainda podem resultar em ferramentas práticas, armazenamento ou melhorias de combate."
-        },
-        {
-          "name": "Criação Focada no Diário",
-          "description": "A melhor maneira de aprender Apotheosis é rastrear suas combinações bem-sucedidas. Seu diário rapidamente se torna sua própria referência de criação."
-        },
-        {
-          "name": "Fusões Iniciais Testadas pela Comunidade",
-          "description": "Exemplos iniciais populares incluem Ósmio mais Graveto para uma Picareta de Gelo, Graveto mais Apêndice de Tungstênio para Azrael, e Azrael mais Magnetita para a Rapieira de Gavinhas."
-        }
-      ],
-      "milestones": [
-        "Fundir um item",
-        "Fundir um verme",
-        "Fundir um artefato divino"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Ferramentas e Armas de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mistura equipamentos utilitários oficiais com armas iniciais descobertas pela comunidade. A melhor configuração geralmente é uma mistura de mineração rápida, travessia segura e uma opção de combate confiável.",
+    "poppyReleaseDate": {
+      "title": "Poppy Playtime Chapter 6 Release Date",
+      "eyebrow": "Release Window",
+      "subtitle": "The release page for Chapter 6 is a live status board: official status, recent chapter cadence, and the strongest public timing window right now.",
+      "intro": "Mob Entertainment has not published a standalone Chapter 6 announcement page, store page, or trailer yet. The cleanest user-facing read is that Chapter 5 is the current live endpoint, while the recent mainline cadence points to a 2027 target window for the next chapter.",
       "items": [
         {
-          "name": "Picareta de Gelo",
-          "type": "Ferramenta de Mineração",
-          "description": "Uma picareta inicial rápida e acessível feita de Ósmio e Graveto. Os jogadores a utilizam para acelerar a coleta inicial de materiais."
+          "label": "Official Status",
+          "title": "No Chapter 6 date is posted by Mob Entertainment",
+          "body": "The official Poppy Playtime page currently lists Chapters 1 through 5, with no separate Chapter 6 page, no launch date, and no official title reveal."
         },
         {
-          "name": "Azrael",
-          "type": "Arma Inicial",
-          "description": "Uma rota prática de arma inicial criada a partir de Graveto e Apêndice de Tungstênio."
+          "label": "Latest Live Chapter",
+          "title": "Chapter 5: Broken Things launched on February 18, 2026",
+          "body": "Steam lists Poppy Playtime - Chapter 5 as released on Feb 18, 2026. That makes Chapter 5 the current canonical endpoint for users tracking what comes next."
         },
         {
-          "name": "Rapieira de Gavinhas",
-          "type": "Arma Melhorada",
-          "description": "Uma sequência mais forte feita ao combinar Azrael com Magnetita. É um dos caminhos de combate inicial-médio mais úteis compartilhados pelos jogadores."
+          "label": "Recent Cadence",
+          "title": "The series has settled into a near-yearly rhythm",
+          "body": "Chapter 3 released on January 30, 2024, Chapter 4 on January 30, 2025, and Chapter 5 on February 18, 2026. That recent pattern gives the next chapter a natural 2027 lane."
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Ferramenta de Mobilidade",
-          "description": "Um item de travessia oficial que melhora muito o movimento e a exploração vertical."
-        },
-        {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Ferramenta de Mobilidade",
-          "description": "Um item de movimento oficial que ajuda a percorrer espaços de forma mais segura e eficiente."
-        },
-        {
-          "name": "Varinha de Bola",
-          "type": "Arma Utilitária",
-          "description": "Um item utilitário oficial de longo alcance que expande suas opções de combate e quebra-cabeças."
-        },
-        {
-          "name": "Equipamento de Mergulho",
-          "type": "Equipamento de Travessia",
-          "description": "Um item utilitário oficial para alcançar áreas que, de outra forma, retardariam a exploração."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Dano Utilitário",
-          "description": "Oficialmente destacados como parte do conjunto principal de ferramentas e úteis para romper ameaças ou obstáculos."
+          "label": "Working Window",
+          "title": "2027 is the strongest public target window",
+          "body": "Across current public coverage, the most grounded timing window is 2027, especially after the February 2026 release of Chapter 5 and the annual rhythm of the previous two launches."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Armazenamento e Inventário de Lucid Blocks",
-      "displayType": "solutionCards",
-      "intro": "A pressão no inventário começa cedo em Lucid Blocks, então construir armazenamento deve ser um de seus primeiros objetivos. Várias soluções testadas por jogadores reais já se destacam.",
-      "solutions": [
-        {
-          "name": "Cubo de Cache",
-          "role": "Armazenamento Estilo Baú",
-          "description": "Os Cubos de Cache são uma das primeiras respostas práticas de armazenamento e são tratados pelos jogadores como o principal recipiente estilo baú do jogo."
-        },
-        {
-          "name": "Armário",
-          "role": "Armazenamento Simples de Base",
-          "description": "Armários são outra opção de armazenamento confirmada. Uma receita inicial compartilhada usa 1 Madeira Cortada e 1 Corda."
-        },
-        {
-          "name": "Qualia Pessoal",
-          "role": "Central de Armazenamento de Longo Prazo",
-          "description": "Uma vez desbloqueada, sua Qualia pessoal torna-se um lugar natural para organizar materiais, criar em paz e expandir sua base."
-        },
-        {
-          "name": "Rastreamento pelo Diário",
-          "role": "Eficiência de Inventário",
-          "description": "Registrar combinações úteis em seu diário reduz o desperdício de materiais e facilita muito o gerenciamento do inventário."
-        }
-      ],
-      "managementTips": [
-        "Priorize uma opção de armazenamento confiável antes de acumular itens raros.",
-        "Construa ao redor de sua Qualia pessoal assim que ela estiver disponível.",
-        "Mantenha materiais de criação, ferramentas de combate e equipamentos de movimento separados para que as melhorias sejam mais fáceis de planejar.",
-        "Use seu diário como parte do gerenciamento de inventário, não apenas para descobertas de criação."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Qualia e Construção de Base em Lucid Blocks",
-      "displayType": "cards",
-      "intro": "Qualia é um dos marcos de progressão mais importantes em Lucid Blocks. Ela oferece um espaço pessoal para se reagrupar, armazenar materiais e gradualmente transformar o progresso da exploração em uma base real.",
-      "cards": [
-        {
-          "name": "Qualia Pessoal",
-          "description": "Desbloquear uma Qualia é um marco inicial que oferece um lugar mais confiável para retornar enquanto explora o mundo mais amplo."
-        },
-        {
-          "name": "Construção Focada em Armazenamento",
-          "description": "Muitos jogadores começam a usar sua Qualia como um centro de armazenamento antes de transformá-la em uma base maior com espaço organizado para criação e construção."
-        },
-        {
-          "name": "Construção Criativa de Lares",
-          "description": "Lucid Blocks suporta construção criativa, e os jogadores já estão usando espaços de Qualia para criar casas e layouts personalizados."
-        },
-        {
-          "name": "Central de Progressão",
-          "description": "Uma base sólida ajuda a separar saques de exploração, materiais de criação, sementes, ferramentas e equipamentos de mobilidade para que seus próximos upgrades sejam mais fáceis de planejar."
-        }
-      ],
-      "highlights": [
-        "Entrar em uma qualia",
-        "Armazenar materiais com segurança",
-        "Expandir da utilidade para a decoração",
-        "Usar o espaço da base para apoiar a criação e o cultivo"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Regiões do Mundo de Lucid Blocks",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks utiliza geração de mundo infinita, então os jogadores continuam descobrindo novos ambientes e estruturas. Alguns lugares nomeados já estão aparecendo em conquistas e discussões da comunidade.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Área Notada pela Comunidade",
-          "description": "Fog Meadow já é conhecida entre os jogadores como uma área tensa associada a ameaças ocultas e encontros perigosos."
-        },
-        {
-          "name": "Linha de Ley Tiamana",
-          "type": "Marco de Descoberta",
-          "description": "A linha de ley tiamana é importante o suficiente para ter seu próprio marco de conquista, tornando-a uma das descobertas de mundo nomeadas mais claras até agora."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Espaço de Construção",
-          "description": "Os jogadores já estão usando Clonaqualia como um lugar para construir casas, armazenar materiais e experimentar layouts mais permanentes."
-        },
-        {
-          "name": "Pântano de Essência",
-          "type": "Área de Cultivo",
-          "description": "O Pântano de Essência está sendo compartilhado pelos jogadores como um local de cultivo útil, especialmente para lutar contra slimes e ganhar experiência."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Criaturas e Inimigos de Lucid Blocks",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mistura criaturas surreais com perigo real. Descrições oficiais e postagens da comunidade apontam para um mundo cheio de vida estranha, ameaças hostis e alguns encontros marcantes que os jogadores lembram rapidamente.",
-      "creatures": [
-        {
-          "name": "Manequins",
-          "role": "Inimigo Hostil",
-          "description": "Os Manequins são um dos inimigos oficialmente nomeados no mundo e fazem parte do elenco de ameaças surreais do jogo."
-        },
-        {
-          "name": "Géis Macios",
-          "role": "Inimigo Hostil",
-          "description": "Géis macios são outro tipo de inimigo oficialmente nomeado e ajudam a definir o estilo biológico estranho do jogo."
-        },
-        {
-          "name": "Seres de Dimensões Superiores",
-          "role": "Inimigo Hostil",
-          "description": "Esses seres são apresentados como parte da linha de inimigos mais abstrata e perturbadora do mundo."
-        },
-        {
-          "name": "Aranhas Colossais",
-          "role": "Grande Ameaça",
-          "description": "As aranhas são um dos inimigos mais temidos imediatamente em discussões da comunidade e são claramente um perigo memorável."
-        },
-        {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "Criatura Nomeada",
-          "description": "__PROTECTED_26ee183b__ é notável o suficiente para ter sua própria conquista, o que o torna um dos encontros com criaturas nomeadas mais claros do jogo."
-        },
-        {
-          "name": "Vermes Fofos",
-          "role": "Criatura Interagível",
-          "description": "Os vermes não fazem apenas parte da progressão de fusão, eles também podem ser renomeados, ganhando um papel mais pessoal do que os inimigos padrão."
-        },
-        {
-          "name": "Criatura Blasfema",
-          "role": "Ameaça de Elite",
-          "description": "A criatura blasfema está ligada a uma conquista de combate dedicada, marcando-a como um encontro de inimigo significativo."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Equipamento de Mobilidade de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Melhorias de movimento são um dos maiores saltos na qualidade de vida em Lucid Blocks. Depois de desbloquear suas primeiras ferramentas de travessia, a exploração torna-se mais rápida, segura e muito mais recompensadora.",
+    "poppyTrailer": {
+      "title": "Poppy Playtime Chapter 6 Trailer",
+      "eyebrow": "Official Videos",
+      "subtitle": "There is no official Chapter 6 trailer yet, so the best trailer hub is the final stretch of Chapter 5's official marketing campaign that sets up the next chapter.",
+      "intro": "Until Mob Entertainment starts the Chapter 6 rollout, users mainly want one place to watch the official lead-in material in order: teaser, cinematic setup, Prototype-focused cinematic, and the final gameplay trailer.",
       "items": [
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Ferramenta de Travessia",
-          "description": "O gancho é um dos marcos de movimento mais claros do jogo e possui sua própria conquista dedicada."
+          "label": "Official Teaser",
+          "title": "Chapter 5 Teaser Trailer",
+          "body": "Released on October 31, 2025. This is the first official signal of the post-Chapter 4 arc and the earliest trailer users should watch before moving into the late-game setup.",
+          "href": "https://www.youtube.com/watch?v=NGSn5cY0o3k"
         },
         {
-          "name": "Luva Planadora",
-          "type": "Mobilidade Aérea",
-          "description": "A luva planadora permite viagens muito mais suaves e é outro marco importante de progressão com sua própria conquista."
+          "label": "Cinematic Setup",
+          "title": "Welcome Home",
+          "body": "Released on December 5, 2025. This cinematic trailer follows Poppy after the ending of Chapter 4 and bridges directly into the emotional and narrative pressure that drives Chapter 5.",
+          "href": "https://www.youtube.com/watch?v=XRRnP91SSrQ"
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Ferramenta de Travessia",
-          "description": "Os planadores de abelha são oficialmente destacados como parte do kit de ferramentas de movimento do jogo para percorrer espaços de forma mais eficiente."
+          "label": "Villain Focus",
+          "title": "The Prototype",
+          "body": "Released on January 10, 2026. This cinematic trailer puts Experiment 1006 at the center, reveals Chapter 5's title and release date, and is the clearest official setup for the final conflict ahead.",
+          "href": "https://www.youtube.com/watch?v=-poSVOan2fw"
         },
         {
-          "name": "Varinha de Bola",
-          "type": "Equipamento Utilitário",
-          "description": "As varinhas de bola são uma das ferramentas especiais oficialmente destacadas e expandem a forma como você se move ou interage com o mundo."
+          "label": "Gameplay Reveal",
+          "title": "Official Game Trailer",
+          "body": "Released on February 11, 2026. This is the final pre-launch trailer for Broken Things and the best gameplay-heavy watch for understanding what Chapter 6 will inherit from Chapter 5.",
+          "href": "https://www.youtube.com/watch?v=EriEensiy0I"
+        }
+      ]
+    },
+    "poppyStoryTheories": {
+      "title": "Poppy Playtime Chapter 6 Story Theories",
+      "eyebrow": "What Comes Next",
+      "subtitle": "The strongest Chapter 6 theories are not random guesses. They come straight from the Chapter 5 ending: Poppy is taken, Sawyer returns through the Backup, and the Prototype is still standing.",
+      "items": [
+        {
+          "title": "Chapter 6 is set up as a rescue mission for Poppy",
+          "summary": "The ending leaves Poppy in the Prototype's hands, which gives the next chapter a direct objective instead of another broad descent into the factory.",
+          "points": [
+            "The Prototype leaves Chapter 5 with Poppy, making her recovery the clearest next-step goal.",
+            "This turns the next chapter into an active pursuit instead of a fresh mystery reset.",
+            "A rescue structure also fits the series' current push toward endgame confrontation rather than slow-burn setup."
+          ]
         },
         {
-          "name": "Equipamento de Mergulho",
-          "type": "Equipamento de Exploração",
-          "description": "O equipamento de mergulho está oficialmente listado como parte do conjunto utilitário principal para alcançar áreas que seriam mais difíceis de explorar."
+          "title": "Harley Sawyer is positioned as the biggest wild card in the chapter",
+          "summary": "The Backup reveal does more than revive an old villain. It creates a power struggle where Sawyer may have to help the player against the Prototype before turning dangerous again.",
+          "points": [
+            "The Master Backup ends with Harley Sawyer returning through the data system.",
+            "He has direct relevance to the experiments, procedures, and factory systems that matter most now.",
+            "That makes him the cleanest route to an uneasy ally-to-rival arc in the next chapter."
+          ]
         },
         {
-          "name": "Explosivos",
-          "type": "Dano Utilitário",
-          "description": "Os explosivos são oficialmente destacados e vinculados a um marco de conquista, tornando-os parte da progressão utilitária principal do jogo."
+          "title": "The Prototype remains the final central threat",
+          "summary": "Chapter 5 gives players a much clearer look at Experiment 1006, but it does not finish him. Instead, it sharpens the path toward a larger endgame clash.",
+          "points": [
+            "The Prototype survives the train sequence and still controls the board by the end of Broken Things.",
+            "His presence escalates from hidden mastermind to direct physical threat.",
+            "Everything now points toward Chapter 6 pushing the series into a true final-stage confrontation."
+          ]
+        },
+        {
+          "title": "Unresolved allies and bodies keep the next chapter emotionally loaded",
+          "summary": "Chapter 5 refuses to close the book on Huggy Wuggy, Kissy Missy, and the surviving allies underground, which gives Chapter 6 room to combine rescue, reunion, and betrayal.",
+          "points": [
+            "Huggy Wuggy and Kissy Missy are attacked, but their final status is left open.",
+            "Giblet survives the chapter and is still embedded in the fight against the Prototype.",
+            "That unresolved group dynamic gives Chapter 6 more than one thread to pay off at once."
+          ]
+        }
+      ]
+    },
+    "poppyEndingSetup": {
+      "title": "Poppy Playtime Chapter 6 Ending Setup",
+      "eyebrow": "Ending Breakdown",
+      "subtitle": "Chapter 5 does not end with closure. It stacks four major turns in a row: the Wuggy reunion is shattered, the train escape fails, Poppy is taken, and Harley Sawyer comes back through the Backup.",
+      "items": [
+        {
+          "title": "The reunion collapses as soon as the Prototype returns",
+          "summary": "Chapter 5 briefly reunites Huggy Wuggy and Kissy Missy, then immediately turns that into a fresh disaster when the Prototype crashes the moment.",
+          "points": [
+            "The Prototype interrupts the reunion and attacks both of them.",
+            "Their condition is left unresolved rather than fully closed off.",
+            "That choice preserves them as major emotional stakes for the next chapter."
+          ]
+        },
+        {
+          "title": "The train escape ends with a stab, a Poppy Gel tank, and a revival",
+          "summary": "The player boards a train to escape, but the Prototype keeps pace, survives the chaos, and lands a final blow before the story pivots again.",
+          "points": [
+            "The Prototype catches the player after the train sequence and stabs them through the chest.",
+            "The body is dumped into Poppy Gel instead of being left behind.",
+            "Giblet revives the player, pushing the chapter past the fake-out ending and into its final reveal."
+          ]
+        },
+        {
+          "title": "Poppy is taken, which gives the next chapter its clearest objective",
+          "summary": "By the time the player is back on their feet, the Prototype has already left with Poppy.",
+          "points": [
+            "The player survives, but the rescue fails in the short term.",
+            "Poppy's removal from the scene turns the ending into a direct setup for pursuit.",
+            "This is the cleanest bridge from Broken Things into a Chapter 6 rescue arc."
+          ]
+        },
+        {
+          "title": "The Master Backup ends by restoring Harley Sawyer",
+          "summary": "The final reveal is not a file dump or a weapon blueprint. It is Harley Sawyer himself, returned through the Backup system.",
+          "points": [
+            "The chapter's search for the Backup ends in the Data Storage room.",
+            "Activating it reveals Harley Sawyer as the stored intelligence behind the Backup.",
+            "That one reveal reframes Chapter 6 around three forces at once: the player, Sawyer, and the Prototype."
+          ]
+        }
+      ]
+    },
+    "poppyCharacters": {
+      "title": "Poppy Playtime Chapter 6 Characters",
+      "eyebrow": "Story Cast",
+      "subtitle": "Chapter 5 leaves a tighter, more important cast around the Player. These allies, survivors, and carryover threats are the names most likely to shape the next chapter.",
+      "intro": "The ending of Broken Things narrows the field around a handful of characters who either escape with the Player, help drive the anti-Prototype plan, or return at the exact moment the story needs a new power player.",
+      "items": [
+        {
+          "name": "Poppy",
+          "role": "Core Ally",
+          "summary": "Poppy remains the emotional center of the series and one of the Player's most important guides. In Chapter 5, she is freed, injured by the Prototype during the tea-party confrontation, and brought back into the surviving group.",
+          "details": [
+            "Officially presented as Playtime Co.'s breakout doll with a voice box",
+            "Freed during the late Chapter 5 escape sequence",
+            "Reunites with the group after the Prototype damages her"
+          ]
+        },
+        {
+          "name": "Kissy Missy",
+          "role": "Frontline Ally",
+          "summary": "Kissy Missy is one of the last major friendly toys still moving with the Player's side. She attacks the Prototype at Lily Lovebraids' tea party, creating the opening that lets the escape continue.",
+          "details": [
+            "Listed as a Chapter 5 deuteragonist",
+            "Breaks the Prototype's immediate control of the tea-party scene",
+            "Reappears near the tram station during the endgame run"
+          ]
+        },
+        {
+          "name": "Giblet",
+          "role": "Resistance Planner",
+          "summary": "Giblet is one of Chapter 5's most important new helpers. He is part of the small group actively working against the Prototype and is directly tied to the plan around the negation formula backup.",
+          "details": [
+            "Listed as a Chapter 5 deuteragonist",
+            "Explains that the backup contains the Prototype's weakness",
+            "Pushes the Player toward the tram and the next objective"
+          ]
+        },
+        {
+          "name": "Chum Chompkins",
+          "role": "Inside Contact",
+          "summary": "Chum Chompkins works alongside Giblet in Chapter 5 and becomes part of the Player's narrow support network. He begins distrustful, but quickly becomes part of the operation moving the Player deeper through the Labs.",
+          "details": [
+            "Listed as a Chapter 5 deuteragonist",
+            "Helps protect the Player when the Prototype approaches",
+            "Tied to the same anti-Prototype plan as Giblet"
+          ]
+        },
+        {
+          "name": "Harley Sawyer",
+          "role": "Endgame Return",
+          "summary": "Harley Sawyer shifts from background history into direct Chapter 6 relevance at the end of Chapter 5. The backup the Player is sent to recover turns out to be Harley Sawyer himself, putting him back at the center of the story.",
+          "details": [
+            "Appears in Chapter 5 as a plot-twist comeback",
+            "Known as the architect of the Bigger Bodies Initiative",
+            "Now positioned as a major carryover character for the next chapter"
+          ]
+        },
+        {
+          "name": "The Prototype",
+          "role": "Central Threat",
+          "summary": "Even inside a character board, the Prototype cannot be separated from the Chapter 6 setup. Chapter 5 gives him a direct face-to-face confrontation with Poppy and the Player, making him the figure every surviving character is reacting to.",
+          "details": [
+            "Official bio describes him as intelligent, cunning, and crafty",
+            "Damages Poppy during the tea-party confrontation",
+            "Stalks the Player through the endgame route toward the tram"
+          ]
+        }
+      ]
+    },
+    "poppyVillains": {
+      "title": "Poppy Playtime Chapter 6 Villains",
+      "eyebrow": "Threat Board",
+      "subtitle": "Broken Things narrows the next chapter's danger map around a few major names. This module shows the antagonists and wildcard forces carrying the most story weight into the next phase.",
+      "intro": "Players searching for the next villain usually want more than a name. They want to know who is driving the story, who is doing the physical hunting, and who might destabilize the balance between the Player and the Prototype.",
+      "items": [
+        {
+          "name": "The Prototype",
+          "threat_type": "Primary Antagonist",
+          "summary": "The Prototype is the main antagonist of Poppy Playtime and the dominant force behind the end of Chapter 5. He directly confronts Poppy, damages her, stalks the Player, and remains the center of the factory's power structure.",
+          "details": [
+            "Also known as Experiment 1006",
+            "Described as cunning, intelligent, and violent",
+            "Orchestrated the Hour of Joy and drives the late-game pressure in Broken Things"
+          ]
+        },
+        {
+          "name": "Harley Sawyer",
+          "threat_type": "Endgame Wildcard",
+          "summary": "Harley Sawyer matters because he combines human-era experiment history with a live return to the story. As the mind behind the Bigger Bodies Initiative and the ending reveal behind the backup, he enters Chapter 6 as a destabilizing force.",
+          "details": [
+            "Known to most characters as The Doctor",
+            "Responsible for the Bigger Bodies Initiative",
+            "Reintroduced as the backup recovered at the end of Chapter 5"
+          ]
+        },
+        {
+          "name": "Huggy Wuggy",
+          "threat_type": "Physical Hunter",
+          "summary": "Huggy Wuggy remains one of the series' most dangerous chase threats. Chapter 5 keeps him active as the factory's pursuing force, including a major ambush near the tram-side endgame stretch.",
+          "details": [
+            "Serves as Playtime's security-system pursuer in Chapter 5",
+            "Keeps direct physical pressure on the Player",
+            "Helps keep the finale dangerous even before the last confrontation peaks"
+          ]
+        }
+      ]
+    },
+    "poppyPrototype": {
+      "title": "Poppy Playtime Chapter 6 The Prototype",
+      "eyebrow": "Lore File",
+      "subtitle": "The Prototype is the one name every Chapter 6 theory circles back to. This module gives a clean read on his identity, his actions, and why the next chapter cannot move forward without him.",
+      "intro": "Prototype searches sit at the center of late-stage Poppy Playtime interest because they connect lore, motive, and future story direction in one place. Instead of scattering across old chapter summaries, this module organizes the core facts that matter most after Broken Things.",
+      "items": [
+        {
+          "title": "Identity",
+          "content": "The Prototype is Experiment 1006 and the main antagonist of Poppy Playtime. Official character material describes him as intelligent, cunning, and crafty, while the lore pages present him as a feared and respected force inside the factory."
+        },
+        {
+          "title": "Series Role",
+          "content": "His presence runs across the full story arc. He is referenced as early as Chapter 1, physically tied to later chapter events, revealed as the main antagonist of Broken Things, and treated as the central architect behind the factory's long-running horrors."
+        },
+        {
+          "title": "Chapter 5 Actions",
+          "content": "Broken Things moves him from background menace to direct confrontation. At Lily Lovebraids' tea party, he faces Poppy and the Player head-on, says he sent the orphans to a Better Place, damages Poppy, and continues stalking the Player through the endgame route."
+        },
+        {
+          "title": "Why He Matters for Chapter 6",
+          "content": "Chapter 5 ends with the anti-Prototype plan still unresolved, which leaves him as the pressure point for every remaining character. Poppy, Giblet, Kissy Missy, and Harley Sawyer are all now defined by how they oppose, understand, or survive him."
+        }
+      ]
+    },
+    "poppyHarleySawyer": {
+      "title": "Poppy Playtime Chapter 6 Harley Sawyer",
+      "eyebrow": "Character File",
+      "subtitle": "Harley Sawyer is no longer just a name buried in experiment lore. Chapter 5 pushes him back into the main story and turns him into one of the most important human-linked figures in the next chapter.",
+      "intro": "Users searching Harley Sawyer usually want three things at once: who he was, what he built, and why his return changes the stakes. This module answers all three in one place.",
+      "items": [
+        {
+          "title": "Who Harley Sawyer Is",
+          "content": "Harley Sawyer is the Head of Special Projects and the figure most characters know as The Doctor. Official material describes him as the originator of the Bigger Bodies Initiative and a ruthless, egotistical scientist tied to the factory's darkest work."
+        },
+        {
+          "title": "The Doctor",
+          "content": "The official character bio presents him as a mind trapped in wires and terminals after the same kind of experimentation he inflicted on others. That transformation is what turns Harley Sawyer from a corporate-era scientist into one of the series' most disturbing recurring figures."
+        },
+        {
+          "title": "Bigger Bodies Initiative",
+          "content": "Harley Sawyer's biggest story function is simple: he built the program that converted orphans into living toys. That makes him one of the clearest links between Playtime Co.'s human leadership, the experiment system, and the monsters still shaping the story."
+        },
+        {
+          "title": "Why Chapter 5 Changes Everything",
+          "content": "At the end of Chapter 5, the backup the Player is sent to recover is revealed to be Harley Sawyer. That twist pulls him out of archived history and places him directly into the next phase of the conflict around the Prototype."
+        }
+      ]
+    },
+    "poppyWalkthrough": {
+      "title": "Poppy Playtime Chapter 6 Chapter 5 Walkthrough",
+      "eyebrow": "Catch-Up Guide",
+      "subtitle": "This is the fastest clean route through Broken Things if you want to catch up on the story, key upgrades, and the biggest puzzle gates before Chapter 6.",
+      "intro": "Chapter 5 runs from the opening Huggy Wuggy escape through the Pressure Hand unlock, the memory puzzles, Lily Lovebraids' dollhouse sequence, and the Reanimation finale. Use this path to finish the chapter and arrive at the ending with the important story beats fresh in mind.",
+      "items": [
+        {
+          "step": 1,
+          "section": "Harvest Processing Center 04",
+          "objective": "Escape Huggy Wuggy and reach the lower labs",
+          "what_to_do": "Wait for the rear door to open, sprint through the vent route, crouch under the conveyor hazards, bend the metal panel on the left, and hit the blue scanner before the red-blue gate.",
+          "result": "You survive the opening chase and enter the first exploration-heavy lab section."
+        },
+        {
+          "step": 2,
+          "section": "Recycling & Reclamation",
+          "objective": "Navigate the dark hallways and get the key",
+          "what_to_do": "Follow the blacklight arrows, clear the side rooms, grab the Sisters audio log, then move through the stair room and collect the Recycling & Reclamation Key before regrouping with Giblet.",
+          "result": "This opens the route into the Boilers and sets up the first safer stretch of the chapter."
+        },
+        {
+          "step": 3,
+          "section": "The Boilers / Research & Development",
+          "objective": "Recover your GrabPack and unlock the Pressure Hand",
+          "what_to_do": "Climb Bron the Dinosaur to reclaim the GrabPack, drag the chained platform left to cross into the Main Office, use the blacklight on the whiteboard, flip it, and enter 0859 to open the Pressure Hand locker.",
+          "result": "You gain the chapter's first mandatory upgrade and unlock vent breaking, charged pushes, and several later puzzles."
+        },
+        {
+          "step": 4,
+          "section": "Testing / Extreme Aggression Under Stress",
+          "objective": "Collect the three memories and survive the Huggy Wuggy pressure sequence",
+          "what_to_do": "Use the machine room memory chip, then complete the Conditioning projector chain to reach the second memory, clear the red smoke by turning valves in the order Triangle, Star, Circle, Hexagon for the third memory route, and finish all three Huggy memory scenes.",
+          "result": "You open the machine door, advance the main story, and clear one of the chapter's most important lore gates."
+        },
+        {
+          "step": 5,
+          "section": "Sweet Street / The Dollhouse / Tea Time",
+          "objective": "Finish Lily Lovebraids' tasks and escape her mansion",
+          "what_to_do": "Cross Sweet Street, then in the Dollhouse retrieve Lily's three toys: the car toy by powering the garage, the piano toy by launching it and playing the music-sheet order, and the shower toy by using the balcony fire route. After the tea-party reveal, run the chase and keep moving until Lily is defeated.",
+          "result": "The Lily Lovebraids arc ends and the story turns toward Reanimation and the final backup objective."
+        },
+        {
+          "step": 6,
+          "section": "Reanimation / The End of the Line",
+          "objective": "Find the backup, clear Surgery and Grand Stitchery, then finish the train finale",
+          "what_to_do": "Solve the randomized lab code, use 231 for the observation corridor, enter Surgery 2 for the red VHS locker code 728, complete all four Grand Stitchery power tasks, reach the tram, pull yourself onto the train with the magnetic pads, and push through to the override terminal.",
+          "result": "You complete Chapter 5 and reach the ending sequence that directly sets up the next chapter."
+        }
+      ]
+    },
+    "poppyPuzzleCodes": {
+      "title": "Poppy Playtime Chapter 6 Puzzle Codes",
+      "eyebrow": "Quick Codes",
+      "subtitle": "Chapter 5 codes, passwords, and puzzle sequences pulled into one fast-scan block for players who want immediate solutions.",
+      "intro": "Broken Things uses number pads, symbol orders, hidden UV clues, and a few late-game doors that are easy to forget after a death or reload. This list covers the most common blockers players hit in Chapter 5.",
+      "items": [
+        {
+          "label": "Pressure Hand Locker",
+          "code": "0859",
+          "location": "Main Office after crossing from the Boilers area",
+          "use": "Unlocks the Pressure Hand upgrade",
+          "hint": "Use the blacklight on the whiteboard, flip it over, and read the hidden digits on the back."
+        },
+        {
+          "label": "Master Backup Files Locker",
+          "code": "560",
+          "location": "Engineering Workshop",
+          "use": "Opens the locker holding the Master Backup files",
+          "hint": "Use the UV clue on the whiteboard, inspect the SP shelf through the window, then confirm the marked container from the metal walkway."
+        },
+        {
+          "label": "Red Smoke Valve Puzzle",
+          "code": "Triangle → Star → Circle → Hexagon",
+          "location": "Pirate ship memory area",
+          "use": "Clears the smoke so you can continue the third memory path",
+          "hint": "Read the blacklight shapes on the wall upstairs, then turn the valves in that order before flipping the lever."
+        },
+        {
+          "label": "Emotion Keypad Door",
+          "code": "Happy → Happy → Disgust → Sad → Fear → Happy",
+          "location": "Conditioning corridor with the projector rooms",
+          "use": "Opens the optional hallway with the Experiment 1170 VHS tape",
+          "hint": "The face order is shown during the final Huggy memory breakout."
+        },
+        {
+          "label": "BLANKY Blankz Locker",
+          "code": "1936",
+          "location": "Projector arena during the Huggy distraction sequence",
+          "use": "Unlocks the optional collectible locker",
+          "hint": "The digits are scattered through the safe rooms around the arena perimeter."
+        },
+        {
+          "label": "Lily's Piano Puzzle",
+          "code": "Star → Diamond → Flower → Heart",
+          "location": "Upstairs music room in Lily Lovebraids' mansion",
+          "use": "Opens the piano and releases one tea-party toy",
+          "hint": "Use the Pressure Hand to launch the toy into the piano first, then play the order shown on the nearby sheet music."
+        },
+        {
+          "label": "Backup Red Door",
+          "code": "7802",
+          "location": "Late Reanimation lab room before the Surgery corridor",
+          "use": "Opens the route toward the Surgical and Observation areas",
+          "hint": "The four digits are hidden on separate paper clues in the same room."
+        },
+        {
+          "label": "Surgery Observation Corridor",
+          "code": "231",
+          "location": "Upper corridor above the Grand Stitchery",
+          "use": "Opens the locked observation doors leading into the surgery suites",
+          "hint": "Reveal the number on the wall between the doors with the blacklight."
+        },
+        {
+          "label": "Red VHS Tape Cabinet",
+          "code": "728",
+          "location": "Locker inside Surgery 2",
+          "use": "Unlocks the final red VHS tape cabinet",
+          "hint": "Break into Surgery 2, scan the wall with the blacklight, then enter the locker code."
+        },
+        {
+          "label": "Memories Machine Door",
+          "code": "6-digit personalized code",
+          "location": "Locked door behind the memory machine",
+          "use": "Opens the route after all three Huggy Wuggy memories",
+          "hint": "Complete all three memories to receive two digits per sequence on your own run."
+        }
+      ]
+    },
+    "poppyPressureHand": {
+      "title": "Poppy Playtime Chapter 6 Pressure Hand Guide",
+      "eyebrow": "Upgrade Guide",
+      "subtitle": "The Pressure Hand is the first major GrabPack upgrade in Chapter 5 and it is mandatory for progression. This guide helps you unlock it quickly and understand where it matters afterward.",
+      "intro": "Players first encounter the Pressure Hand in the early lab route after reclaiming the GrabPack. Once unlocked, it becomes the chapter's core tool for breaking vents, shattering barriers, moving carts, powering puzzle setups, and opening later routes in Testing, the Dollhouse, and Reanimation.",
+      "items": [
+        {
+          "step": 1,
+          "heading": "Reclaim the GrabPack",
+          "action": "Go to the Boilers area, walk up Bron the Dinosaur's tail, jump onto the nearby blue box, then leap to the overhanging blue pipe and follow the catwalk to the GrabPack.",
+          "result": "You get the base tool required to reach the Main Office and the Pressure Hand locker."
+        },
+        {
+          "step": 2,
+          "heading": "Build the bridge into the Main Office",
+          "action": "Use the GrabPack on the chained platform to your right and drag it all the way left so it becomes a makeshift bridge across the gap.",
+          "result": "This takes you into the Main Office where the Pressure Hand locker puzzle begins."
+        },
+        {
+          "step": 3,
+          "heading": "Reveal the locker clue",
+          "action": "Find the whiteboard, switch on the blacklight, follow the hidden arrow, and flip the board over to expose the concealed digits.",
+          "result": "The code shown on the board is 0859."
+        },
+        {
+          "step": 4,
+          "heading": "Open the locker and equip the upgrade",
+          "action": "Enter 0859 on the locker keypad and collect the Pressure Hand.",
+          "result": "Your GrabPack now gains a charged blast that can open new routes and solve several mandatory puzzles."
+        },
+        {
+          "step": 5,
+          "heading": "Use the charge correctly",
+          "action": "Attach the hand to a surface, hold the charge, then release to fire a pressurized blast. A longer charge produces a stronger impact.",
+          "result": "You can now break vents, glass, icy or blocked surfaces, and push objects or buttons that regular hands cannot move."
+        },
+        {
+          "step": 6,
+          "heading": "Watch for the first important uses",
+          "action": "Use the Pressure Hand to break the vent after the locker, move heavy carts in Research & Development, solve Dollhouse toy puzzles, break into Surgery 2, and finish the Grand Stitchery pressure setup.",
+          "result": "These are the main story checkpoints where the upgrade becomes part of the critical path."
+        }
+      ]
+    },
+    "poppyTapeLocations": {
+      "title": "Poppy Playtime Chapter 6 Tape Locations",
+      "eyebrow": "Collectibles",
+      "subtitle": "Chapter 5 has three VHS tapes and ten audio logs — several are easy to miss because the game locks players out of earlier rooms after autosaves.",
+      "intro": "Lore players searching for Chapter 6 clues often go back to Broken Things to replay tapes, relisten to logs, and reconnect character reveals with the late-game ending. This list surfaces the most important VHS pickups and easiest-to-miss audio logs.",
+      "items": [
+        {
+          "name": "Experiment 1170",
+          "type": "VHS",
+          "chapter_area": "Testing / Conditioning",
+          "location": "On the floor behind the emotion keypad door in the corridor with the eight conditioning rooms.",
+          "unlock_or_route": "Enter Happy → Happy → Disgust → Sad → Fear → Happy to open the hallway.",
+          "playback": "Use the cyan TV in the Conditioning Room at the end of the corridor.",
+          "missable_tip": "Grab it during the three-memories section before pushing too far ahead."
+        },
+        {
+          "name": "Three P's of Diorama Safety",
+          "type": "VHS",
+          "chapter_area": "Sweet Street",
+          "location": "On the climbing-wall ramp in the playground at the first stop of the ice-cream truck ride.",
+          "unlock_or_route": "Climb the frame from the back side of the playground and pick it up before leaving the area.",
+          "playback": "Use the yellow TV in the Toy Treehouse above the playground.",
+          "missable_tip": "Do this before you leave the playground route and continue through Sweet Street."
+        },
+        {
+          "name": "How to Maintain Your–(Illegible)",
+          "type": "VHS",
+          "chapter_area": "Reanimation / Surgery 2",
+          "location": "Inside the locked locker in Surgery 2.",
+          "unlock_or_route": "Break both cracked windows, route power into Surgery 2, then enter 728 on the locker.",
+          "playback": "Use the VCR in nearby Surgery 1.",
+          "missable_tip": "Pick it up before finishing Grand Stitchery and moving into the final chapter stretch."
+        },
+        {
+          "name": "Sisters",
+          "type": "Audio Log",
+          "chapter_area": "Recycling & Reclamation",
+          "location": "Through the left-side door near the bathroom and tent detour on the blacklight-arrow route.",
+          "unlock_or_route": "Crawl under the tent for the side path, then enter the left door to collect the log before taking the stairs-room route to the key.",
+          "playback": "Listen from the inventory audio log menu.",
+          "missable_tip": "Easy to skip if you go straight for the key path."
+        },
+        {
+          "name": "Security Log - 08081995-16",
+          "type": "Audio Log",
+          "chapter_area": "The Boilers",
+          "location": "Inside the locked room reached through the fallen vent after leaving Giblet's hideout.",
+          "unlock_or_route": "Drop into the large room, climb into the fallen vent, crawl through, and collect the cassette before leaving the room.",
+          "playback": "Listen from the inventory audio log menu.",
+          "missable_tip": "Pick it up before following the obvious unlocked-door route forward."
+        },
+        {
+          "name": "The Case",
+          "type": "Audio Log",
+          "chapter_area": "Research & Development",
+          "location": "In the right corner of the middle walkway reached after the first Pressure Hand cart push.",
+          "unlock_or_route": "Use the Pressure Hand to move the cart, jump to the middle walkway for the detour, grab the cassette, then return and continue the main path.",
+          "playback": "Listen from the inventory audio log menu.",
+          "missable_tip": "Do the detour before pushing the cart all the way to the back vent."
+        }
+      ]
+    },
+    "poppyCollectiblesGuide": {
+      "eyebrow": "100% Completion",
+      "title": "Poppy Playtime Chapter 6 Collectibles Guide",
+      "subtitle": "Use the latest full-completion pattern from the series to prep your next perfect run. Chapter 5 sets the current benchmark with five pickup categories and 74 total trackable items.",
+      "intro": "For completionists, the most useful way to frame Chapter 6 is through the collectible structure already established in Chapter 5: main collectibles, cardboard cutouts, audio tapes, VHS tapes, and notes. This checklist highlights the biggest categories, the most valuable chase items, and the zones with the heaviest pickup density.",
+      "items": [
+        {
+          "label": "Full chapter tracker",
+          "count": "74 pickups",
+          "entries": [
+            "19 collectibles",
+            "35 notes",
+            "10 audio tapes",
+            "7 cardboard cutouts",
+            "3 VHS tapes"
+          ],
+          "summary": "The current series benchmark for a full-clear collection run."
+        },
+        {
+          "label": "Main collectibles",
+          "count": "19 items",
+          "entries": [
+            "12 Wrongside Outimal plushies and dolls",
+            "5 golden collectibles",
+            "Ms. Gracie's Playtime ID",
+            "Red Smoke Sample"
+          ],
+          "summary": "The core collectibles tab mixes character items, rare gold variants, and lore objects."
+        },
+        {
+          "label": "Golden set",
+          "count": "5 items",
+          "entries": [
+            "Golden Giblet",
+            "Golden Chum",
+            "Golden Lily",
+            "Golden Limon",
+            "Golden Prototype"
+          ],
+          "summary": "The cleanest rare-item subset to spotlight in a premium checklist."
+        },
+        {
+          "label": "Wrongside Outimals",
+          "count": "12 items",
+          "entries": [
+            "Bindle Boogie x2",
+            "Goober GUTZ x2",
+            "Blanky BLANKZ x2",
+            "Dizzy BOOBOO x2",
+            "Doodle Bones x2",
+            "Loopsy NOODLE x2"
+          ],
+          "summary": "The largest named collectible family in the current chapter structure."
+        },
+        {
+          "label": "Cardboard cutouts",
+          "count": "7 cutouts",
+          "entries": [
+            "Giblet",
+            "Chum Chompkin",
+            "Lily Lovebraids #1",
+            "Lily Lovebraids #2",
+            "Lily Lovebraids #3",
+            "Lily Lovebraids #4",
+            "Lily Lovebraids #5"
+          ],
+          "summary": "Cutouts unlock voice lines and work well as fast visual checklist items."
+        },
+        {
+          "label": "Audio and VHS media",
+          "count": "13 tapes",
+          "entries": [
+            "Audio: Sisters",
+            "Audio: Security Log-08081995-16",
+            "Audio: The Case",
+            "VHS: Experiment 1170",
+            "VHS: Three P's of Diorama Safety",
+            "VHS: How to Maintain Your–(Illegible)"
+          ],
+          "summary": "Small in number but high in story value — ideal for a lore-focused sub-checklist."
+        },
+        {
+          "label": "Best collection zones",
+          "count": "3 priority areas",
+          "entries": [
+            "Research & Development — 14 notes",
+            "The Doll House — 4 collectibles and 6 notes",
+            "Reanimation — 4 collectibles and 2 notes"
+          ],
+          "summary": "These sections carry the highest concentration of missable chapter-wide pickups."
         }
       ],
-      "unlockMilestones": [
-        "Comandar um gancho",
-        "Voar com a luva planadora",
-        "Empunhar uma varinha de projéteis",
-        "Empunhar um explosivo"
-      ]
+      "cta": {
+        "label": "View Full Collectibles Guide",
+        "href": "/poppy-playtime-chapter-6-collectibles-guide"
+      }
     },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Cultivo e Crescimento em Lucid Blocks",
-      "displayType": "mixedCards",
-      "intro": "O crescimento faz parte da progressão real em Lucid Blocks. O cultivo não se trata apenas de plantar e colher, mas também de estabelecer rotas de materiais repetíveis que mantêm suas ferramentas, armas e opções de criação fluindo.",
-      "sections": [
+    "poppyNotesDocuments": {
+      "eyebrow": "Lore Archive",
+      "title": "Poppy Playtime Chapter 6 Notes and Documents",
+      "subtitle": "The current note trail in the series is already deep enough to support a dedicated lore archive. Chapter 5 alone contains 35 readable notes and documents spread across nine major sections.",
+      "intro": "Players searching Chapter 6 theories usually want one thing first: the paper trail. This table organizes the latest chapter's document structure by area, note count, and standout files so readers can catch up on the most important written evidence.",
+      "items": [
         {
-          "name": "Progressão de Sementes",
-          "description": "Plantar e fertilizar sementes é um marco real no jogo, e colher uma noz totalmente crescida faz parte do mesmo caminho de crescimento."
+          "section": "Harvest Processing Center 04",
+          "notes": "3",
+          "key_documents": "An Intercepted Communique; Shipping Manifest – July '96; Inventory – September '95",
+          "focus": "Opening logistics, shipments, and the first hard clues from the factory floor"
         },
         {
-          "name": "Cultivo de Materiais",
-          "description": "Um ciclo prático de cultivo inicial é criar Cápsulas de Mercúrio, que geram pequenos slimes que soltam Gavinhas e gosma para materiais de criação repetíveis."
+          "section": "Recycling & Reclamation",
+          "notes": "3",
+          "key_documents": "Work Procedures – Recycling & Reclamation; Outimal Note; Wrongside Outimal Branding Note",
+          "focus": "Process rules, branding language, and early Wrongside Outimal context"
         },
         {
-          "name": "Sustentação de Ferramentas",
-          "description": "O cultivo de recursos torna-se muito mais forte quando você consegue coletar consistentemente Ósmio, fragmentos de vidro, plantas e materiais de slime para criações subsequentes."
+          "section": "The Boilers",
+          "notes": "2",
+          "key_documents": "Giblet's Checklist; The Better Press, Issue 14",
+          "focus": "Local operations and character-facing material tied to Giblet"
         },
         {
-          "name": "Rotina da Base",
-          "description": "A melhor configuração de cultivo suporta mais do que apenas comida. Ela deve alimentar seu armazenamento, ferramentas de movimento, melhorias de armas e futuros experimentos de fusão."
+          "section": "Research & Development",
+          "notes": "14",
+          "key_documents": "Lab Report: Medium Growth & Plantlife; GrabPack Hands Rejection; Negation Compound Presentation; To Whomever Finds This",
+          "focus": "The biggest lore cluster — experimentation, backups, compounds, and internal fallout"
+        },
+        {
+          "section": "Testing",
+          "notes": "3",
+          "key_documents": "Conditioning Observations; Observation: Lily; Letter to Leith #2",
+          "focus": "Behavioral tracking and Lily-focused observation material"
+        },
+        {
+          "section": "The Doll House",
+          "notes": "6",
+          "key_documents": "Experiment 1468 Proposal; Music Sheet – Novice; Nursery Damage; Lily Journal",
+          "focus": "Lily's story layer, music-based discovery, and the strongest character-centric documents"
+        },
+        {
+          "section": "Reanimation",
+          "notes": "2",
+          "key_documents": "Dr. Akins Personal Letter 3; Experiment Notes",
+          "focus": "Late-stage medical and experiment-heavy reading toward the final stretch"
+        },
+        {
+          "section": "The End of the Line",
+          "notes": "1",
+          "key_documents": "L.P. Journal Entry",
+          "focus": "Endgame reading with strong payoff for theory and ending discussion"
         }
       ],
-      "growthMilestones": [
-        "Fertilizar uma semente",
-        "Colher uma noz totalmente crescida",
-        "Criar ciclos de materiais repetíveis",
-        "Transformar o cultivo em progressão de longo prazo"
-      ]
+      "cta": {
+        "label": "Read All Notes",
+        "href": "/poppy-playtime-chapter-6-notes-and-documents"
+      }
     },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Melhores Desbloqueios Iniciais de Lucid Blocks",
-      "displayType": "priorityCards",
-      "intro": "Os desbloqueios iniciais mais fortes são aqueles que melhoram a segurança, o armazenamento e o movimento. Em Lucid Blocks, algumas melhorias práticas podem tornar todo o resto do jogo muito mais suave.",
-      "priorities": [
+    "poppyPlatforms": {
+      "eyebrow": "Availability",
+      "title": "Poppy Playtime Chapter 6 Platforms",
+      "subtitle": "The newest chapter storefront pattern is PC-first. Chapter 5 is live on Steam and Epic Games Store, while earlier official play-now pages confirm the franchise's broader console and mobile footprint.",
+      "intro": "For a Chapter 6 availability tracker, lead with the platforms already carrying the newest content, then keep the wider franchise platforms in a clear second-wave tracker. That matches how Poppy Playtime is currently surfaced across official platform pages and store listings.",
+      "items": [
         {
-          "name": "Qualia Pessoal",
-          "priority": "Essencial",
-          "description": "Assim que você obtém acesso à sua Qualia pessoal, sua jornada torna-se muito mais estável. Ela atua como um centro confiável para armazenamento, construção e reagrupamento."
+          "platform": "Steam",
+          "status": "Live — Newest Chapter",
+          "notes": "Official storefront for Chapter 5; requires the free base game; Windows 10/11"
         },
         {
-          "name": "Picareta de Gelo",
-          "priority": "Muito Alta",
-          "description": "Uma ferramenta de mineração inicial rápida e barata feita de Ósmio e Graveto. É uma das melhorias mais úteis para acelerar a coleta inicial de recursos."
+          "platform": "Epic Games Store",
+          "status": "Live — Newest Chapter",
+          "notes": "Chapter 5 listed as an Add-On; release date 02/18/26; Windows platform"
         },
         {
-          "name": "Cubo de Cache",
-          "priority": "Muito Alta",
-          "description": "A pressão de armazenamento começa cedo, então obter seu primeiro recipiente confiável estilo baú é uma grande melhoria na qualidade de vida."
+          "platform": "PlayStation",
+          "status": "Franchise Platform",
+          "notes": "Official platform on the Chapter 4 play-now page; Chapter 5 store page not yet linked"
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "priority": "Alta",
-          "description": "O gancho é um dos marcos de movimento mais claros do jogo e rapidamente torna a exploração mais rápida e segura."
+          "platform": "Nintendo",
+          "status": "Franchise Platform",
+          "notes": "Official platform on the Chapter 4 play-now page; Chapter 5 store page not yet linked"
         },
         {
-          "name": "Luva Planadora",
-          "priority": "Alta",
-          "description": "A luva planadora adiciona outro grande impulso de mobilidade e torna o movimento de longa distância muito mais eficiente."
+          "platform": "Xbox",
+          "status": "Franchise Platform",
+          "notes": "Official cross-platform expansion footprint; Chapter 5 store page not yet linked"
         },
         {
-          "name": "Varinha de Projéteis ou Bombas",
-          "priority": "Alta",
-          "description": "Uma ferramenta de longo alcance ou opção explosiva oferece uma resposta mais segura a inimigos perigosos e encontros de estilo desafio."
+          "platform": "iOS",
+          "status": "Mobile Platform",
+          "notes": "Official platform on the Chapter 2 play-now page; mobile rollout tracker"
+        },
+        {
+          "platform": "Android",
+          "status": "Mobile Platform",
+          "notes": "Official platform on the Chapter 2 play-now page; mobile rollout tracker"
         }
-      ]
+      ],
+      "cta": {
+        "label": "Check Platform Status",
+        "href": "/poppy-playtime-chapter-6-platforms"
+      }
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Rastreador de Conquistas de Lucid Blocks",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks possui atualmente 19 conquistas no Steam, e elas se dividem naturalmente em exploração, criação, mobilidade, combate e progressão de cultivo.",
-      "groups": [
+    "poppyPriceDlc": {
+      "eyebrow": "Storefront Model",
+      "title": "Poppy Playtime Chapter 6 Price and DLC",
+      "subtitle": "The live storefront model is straightforward: the base game is free and includes Chapter 1, while later chapters are sold separately as paid DLC or add-ons. The current newest-chapter benchmark is $19.99.",
+      "intro": "The clearest way to explain Chapter 6 pricing is to show the structure players already see on live storefronts today. On both Steam and Epic, Chapter 1 sits inside the base game, while Chapters 2 through 5 are listed as separate paid content.",
+      "items": [
         {
-          "name": "Exploração",
-          "achievements": [
-            {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "Entre em uma qualia."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "Descubra uma linha de ley tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "Vença um desafio tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "Conquista oculta."
-            }
-          ]
+          "product": "Poppy Playtime",
+          "type": "Base Game",
+          "price": "Free",
+          "details": "Includes Chapter 1; available on Steam and Epic Games Store"
         },
         {
-          "name": "Criação e Invocação",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Funda um item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Funda um verme."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Funda um artefato divino."
-            },
-            {
-              "title": "Arcanjo β",
-              "description": "Invoque sua fé."
-            }
-          ]
+          "product": "Poppy Playtime – Chapter 2",
+          "type": "DLC / Add-On",
+          "price": "$9.99",
+          "details": "Separate paid chapter content on both Steam and Epic"
         },
         {
-          "name": "Mobilidade e Utilidade",
-          "achievements": [
-            {
-              "title": "Virtude α",
-              "description": "Voe com a luva planadora."
-            },
-            {
-              "title": "Virtude β",
-              "description": "Comande um gancho."
-            },
-            {
-              "title": "Arcanjo α",
-              "description": "Empunhe uma varinha de projéteis."
-            },
-            {
-              "title": "Arcanjo γ",
-              "description": "Empunhe um explosivo."
-            }
-          ]
+          "product": "Poppy Playtime – Chapter 3",
+          "type": "DLC / Add-On",
+          "price": "$14.99",
+          "details": "Standalone chapter purchase; also part of Toybox 1"
         },
         {
-          "name": "Combate e Criaturas",
-          "achievements": [
-            {
-              "title": "Massacre de __PROTECTED_26ee183b__",
-              "description": "Derrote bubblebears inocentes."
-            },
-            {
-              "title": "Arcanjo δ",
-              "description": "Elimine uma criatura blasfema."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "Morra."
-            },
-            {
-              "title": "Domínio γ",
-              "description": "Renomeie um verme fofo."
-            }
-          ]
+          "product": "Poppy Playtime – Chapter 4",
+          "type": "DLC / Add-On",
+          "price": "$19.99",
+          "details": "Newest price tier chapter on both storefronts"
         },
         {
-          "name": "Crescimento e Cultivo",
-          "achievements": [
-            {
-              "title": "Domínio α",
-              "description": "Fertilize uma semente."
-            },
-            {
-              "title": "Domínio β",
-              "description": "Colha uma noz totalmente crescida."
-            },
-            {
-              "title": "Domínio δ",
-              "description": "Conquista oculta."
-            }
-          ]
+          "product": "Poppy Playtime – Chapter 5",
+          "type": "DLC / Add-On",
+          "price": "$19.99",
+          "details": "Steam states the purchase includes only the fifth chapter"
+        },
+        {
+          "product": "Poppy Playtime Toybox 1",
+          "type": "Bundle",
+          "price": "$16.23 – $19.99",
+          "details": "Bundle path for Chapter 2 and Chapter 3"
+        },
+        {
+          "product": "All Current Steam DLC",
+          "type": "DLC Total",
+          "price": "$64.96",
+          "details": "Combined current Steam total for Chapters 2 through 5"
         }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "FAQ de Singleplayer e Plataformas de Lucid Blocks",
-      "displayType": "accordion",
-      "intro": "Estas são as principais perguntas sobre plataformas e acesso que os jogadores costumam fazer antes de comprar Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Lucid Blocks é singleplayer?",
-          "answer": "Sim. Lucid Blocks é um jogo singleplayer."
-        },
-        {
-          "question": "Multijogador ou cooperativo estão planejados?",
-          "answer": "Não. O modo multijogador não está planejado para o lançamento nem para atualizações futuras."
-        },
-        {
-          "question": "Onde posso jogar Lucid Blocks?",
-          "answer": "Ele está disponível atualmente no Steam para Windows."
-        },
-        {
-          "question": "Quanto custa Lucid Blocks?",
-          "answer": "$9,99 no Steam."
-        },
-        {
-          "question": "Lucid Blocks suporta controles?",
-          "answer": "Sim, mas jogar no controle não é recomendado porque os menus não foram projetados para isso."
-        },
-        {
-          "question": "Lucid Blocks funciona no Steam Deck?",
-          "answer": "Sim. O Proton 9.0 ou 9.0.4 é a configuração comumente recomendada para o Steam Deck."
-        },
-        {
-          "question": "Lucid Blocks funciona no Linux?",
-          "answer": "Sim. Relatos indicam que o Proton 9.0 funciona bem para Linux e Steam Deck."
-        },
-        {
-          "question": "Haverá suporte para Mac ou Android?",
-          "answer": "Eles podem ser suportados no futuro, mas não são plataformas de lançamento atuais."
-        },
-        {
-          "question": "Lucid Blocks possui traduções?",
-          "answer": "Não. Atualmente não há traduções planejadas."
-        },
-        {
-          "question": "Lucid Blocks continuará recebendo atualizações?",
-          "answer": "Sim. Algumas atualizações de conteúdo estão planejadas após o lançamento, mas não pretendem continuar em um cronograma regular indefinido."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Steam Deck e Controle em Lucid Blocks",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks pode rodar no Steam Deck, mas a configuração padrão pode precisar de ajustes. Teclado e mouse continuam sendo a opção mais fluida para menus e jogabilidade geral.",
-      "faqs": [
-        {
-          "question": "Lucid Blocks funciona no Steam Deck?",
-          "answer": "Sim. O Proton 9.0 funciona bem, e o Proton 9.0.4 é uma correção comumente compartilhada para problemas no Steam Deck."
-        },
-        {
-          "question": "O que devo fazer se os controles do Steam Deck não estiverem funcionando?",
-          "answer": "Force a compatibilidade e mude o jogo para o Proton 9.0.4. A configuração padrão pode não aceitar a entrada do controle corretamente."
-        },
-        {
-          "question": "Lucid Blocks suporta controles?",
-          "answer": "Sim, mas jogar no controle não é recomendado porque os menus do jogo não foram projetados para isso."
-        },
-        {
-          "question": "O suporte para Linux é possível?",
-          "answer": "Sim. Relatos indicam que o Proton 9.0 funciona bem para Linux e Steam Deck."
-        },
-        {
-          "question": "Qual é a melhor configuração de entrada?",
-          "answer": "Teclado e mouse são a opção mais fluida para navegação em menus e jogabilidade geral momento a momento."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Configurações e Acessibilidade de Lucid Blocks",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks já possui algumas configurações práticas e notas de compatibilidade que importam imediatamente quando os jogadores iniciam o jogo pela primeira vez.",
-      "settings": [
-        {
-          "name": "Configurações de Exibição",
-          "type": "Opção de Conforto",
-          "description": "As Configurações de Exibição incluem uma opção que permite aos jogadores ocultar as mãos na tela."
-        },
-        {
-          "name": "Compatibilidade Gráfica",
-          "type": "Requisito do Sistema",
-          "description": "O suporte a __PROTECTED_38625270__ é necessário para que os gráficos sejam renderizados corretamente. Sistemas sem __PROTECTED_38625270__ podem sofrer falhas e erros gráficos graves."
-        },
-        {
-          "name": "Preferência de Entrada",
-          "type": "Configuração de Controle",
-          "description": "O suporte a controle existe, mas o teclado e o mouse proporcionam uma experiência mais fluida porque os menus não foram construídos para o uso de controle."
-        },
-        {
-          "name": "Suporte de Idioma",
-          "type": "Localização",
-          "description": "A configuração atual é apenas em inglês, e nenhuma tradução está planejada no momento."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Atualizações e Notas de Patch de Lucid Blocks",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks já está recebendo correções rápidas pós-lançamento e pequenas atualizações de usabilidade.",
-      "entries": [
-        {
-          "title": "Atualização 2.8.2",
-          "type": "Atualização de UI",
-          "description": "Renomeado \"awaken\" para \"exit\" no menu principal."
-        },
-        {
-          "title": "Pequeno Patch para Falhas na Inicialização",
-          "type": "Hotfix",
-          "description": "Um patch dedicado foi lançado para jogadores cujo jogo estava travando ao iniciar."
-        },
-        {
-          "title": "Suporte de Conteúdo Pós-Lançamento",
-          "type": "Nota do Roteiro",
-          "description": "Algumas atualizações de conteúdo estão planejadas após o lançamento, mas não pretendem continuar em um cronograma regular indefinido."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Correção de Falhas e Solução de Problemas de Lucid Blocks",
-      "displayType": "steps",
-      "intro": "A maioria dos problemas imediatos de inicialização e falhas deve ser verificada em uma ordem simples: nível do patch, suporte gráfico, compatibilidade de plataforma e logs.",
-      "steps": [
-        {
-          "title": "Instale o Hotfix de Falhas Mais Recente",
-          "description": "Se o jogo estiver travando ao iniciar, atualize primeiro e teste novamente com o patch de falha de inicialização mais recente."
-        },
-        {
-          "title": "Verifique o Suporte a __PROTECTED_38625270__",
-          "description": "Lucid Blocks requer suporte a __PROTECTED_38625270__. Sistemas sem __PROTECTED_38625270__ podem sofrer falhas ou grandes problemas de renderização."
-        },
-        {
-          "title": "Use o Proton 9.0.4 no Steam Deck",
-          "description": "Se o comportamento de entrada ou inicialização do Steam Deck estiver quebrado, force a compatibilidade e mude para o Proton 9.0.4."
-        },
-        {
-          "title": "Colete Logs de Falhas",
-          "description": "Abra o Executar do Windows, cole %APPDATA%, vá para lucid blocks/logs e reúna os arquivos .txt para solução de problemas."
-        },
-        {
-          "title": "Relate o Problema Corretamente",
-          "description": "Compartilhe os logs e detalhes do dispositivo através do fórum oficial de bug-reports no Discord ou na página da comunidade do Steam."
-        }
-      ]
+      ],
+      "cta": {
+        "label": "View Price Breakdown",
+        "href": "/poppy-playtime-chapter-6-price-and-dlc"
+      }
     }
   },
   "faq": {
-    "title": "Perguntas",
-    "titleHighlight": "Frequentes",
-    "subtitle": "Tudo o que você precisa saber sobre Lucid Blocks",
+    "title": "Frequently Asked",
+    "titleHighlight": "Questions",
+    "subtitle": "Everything you need to know about Poppy Playtime Chapter 6",
     "questions": [
       {
-        "question": "O Lucid Blocks é um jogo singleplayer?",
-        "answer": "Sim. Lucid Blocks é um jogo exclusivamente singleplayer, sem planos para multiplayer ou co-op."
+        "question": "When is Poppy Playtime Chapter 6 coming out?",
+        "answer": "No official release date has been announced by Mob Entertainment. Based on the series' recent yearly cadence—Chapter 3 in January 2024, Chapter 4 in January 2025, Chapter 5 in February 2026—the strongest timing window for Poppy Playtime Chapter 6 is 2027."
       },
       {
-        "question": "O que é o sistema Apotheosis em Lucid Blocks?",
-        "answer": "Apotheosis é o sistema de criação por fusão de forma livre do Lucid Blocks. Em vez de seguir receitas fixas, você combina materiais e descobre seus próprios caminhos de criação."
+        "question": "Is there an official Poppy Playtime Chapter 6 trailer?",
+        "answer": "No official Chapter 6 trailer has been released yet. The most recent official material is the Chapter 5 marketing campaign, including the gameplay trailer released on February 11, 2026, which sets up the story direction for the next chapter."
       },
       {
-        "question": "Onde posso jogar Lucid Blocks?",
-        "answer": "Lucid Blocks está disponível atualmente no Steam para Windows. O suporte para Linux e Steam Deck está disponível através do Proton 9.0."
+        "question": "What happened at the end of Poppy Playtime Chapter 5?",
+        "answer": "Poppy Playtime Chapter 5 ends with the Prototype taking Poppy, the player surviving a stabbing through the Poppy Gel revival, and Harley Sawyer revealed as the Backup's stored intelligence. These four events directly set up Chapter 6's storyline."
       },
       {
-        "question": "Quanto custa o Lucid Blocks?",
-        "answer": "O Lucid Blocks custa US$ 9,99 no Steam."
+        "question": "Who is the main villain in Poppy Playtime Chapter 6?",
+        "answer": "The Prototype remains the central threat heading into Poppy Playtime Chapter 6. He survives the Chapter 5 train sequence and leaves with Poppy. Harley Sawyer's return through the Backup also positions him as a major new force in the next chapter."
       },
       {
-        "question": "O Lucid Blocks tem suporte para controles?",
-        "answer": "Sim, mas jogar no controle não é recomendado porque os menus não foram projetados para isso. Teclado e mouse são a opção mais fluida."
+        "question": "What platforms will Poppy Playtime Chapter 6 be on?",
+        "answer": "Based on the Chapter 5 model, Poppy Playtime Chapter 6 is expected to launch on PC through Steam and Epic Games first. Console availability remains unconfirmed until Mob Entertainment makes an official announcement."
       },
       {
-        "question": "O Lucid Blocks receberá atualizações?",
-        "answer": "Sim. Algumas atualizações de conteúdo estão planejadas após o lançamento, mas não há a intenção de mantê-las em um cronograma regular indefinido."
+        "question": "How many chapters of Poppy Playtime are there?",
+        "answer": "As of February 2026, there are five released chapters: Chapter 1 (A Tight Squeeze), Chapter 2 (Fly in a Web), Chapter 3 (Deep Sleep), Chapter 4 (The Poppy Chapter), and Chapter 5 (Broken Things). Poppy Playtime Chapter 6 has not yet been officially announced."
       }
     ]
   },
   "cta": {
-    "title": "Pronto para explorar Lucid Blocks?",
-    "description": "Junte-se à comunidade de Lucid Blocks no Discord para guias, atualizações e discussões!",
-    "joinCommunity": "Entrar no Discord",
-    "joinGame": "Jogue no Steam"
+    "title": "Follow Poppy Playtime Chapter 6?",
+    "description": "Join the Poppy Playtime community on Discord for theories, updates, and discussions!",
+    "joinCommunity": "Join Discord",
+    "joinGame": "Official Site"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Seu centro de recursos completo para crafting, biomas, criaturas, conquistas e guias de sobrevivência de Lucid Blocks.",
-    "resources": "Recursos",
-    "community": "Comunidade",
+    "title": "Poppy Playtime Chapter 6",
+    "description": "Your tracker for Poppy Playtime Chapter 6 release news, trailer breakdowns, lore theories, and Prototype updates.",
+    "resources": "Resources",
+    "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Comunidade Steam",
-    "steamStore": "Loja Steam",
-    "about": "Sobre",
-    "privacy": "Política de Privacidade",
-    "terms": "Termos de Serviço",
+    "steamCommunity": "Reddit Community",
+    "steamStore": "Steam Store",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Wiki de Lucid Blocks. Não afiliada aos desenvolvedores de Lucid Blocks.",
-    "disclaimer": "Site de recursos não oficial feito por fãs."
+    "copyright": "© 2026 Poppy Playtime Chapter 6. Not affiliated with Mob Entertainment.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
-  "pages": {}
+  "pages": {
+    "release": {
+      "title": "Poppy Playtime Chapter 6 Release Date",
+      "description": "Official release status, chapter cadence analysis, and the current timing window for Poppy Playtime Chapter 6.",
+      "metaTitle": "Poppy Playtime Chapter 6 Release Date - Official Status & Timeline",
+      "metaDescription": "Track the Poppy Playtime Chapter 6 release date with historical chapter cadence, platform availability updates, and official announcement monitoring.",
+      "categoryLabel": "RELEASE INFO",
+      "whatIs": "What is the Release Date section?",
+      "whatIsDescription": "The Release Date section tracks everything known about when Poppy Playtime Chapter 6 will launch, including official statements from Mob Entertainment, historical chapter release patterns, and platform availability.",
+      "why": "Why track the release date?",
+      "whySteps": {
+        "step1Title": "Stay Ahead of Announcements",
+        "step1Description": "Get notified the moment Mob Entertainment confirms Chapter 6 dates",
+        "step2Title": "Understand the Timeline",
+        "step2Description": "Historical chapter gaps help estimate when the next chapter could arrive",
+        "step3Title": "Platform Coverage",
+        "step3Description": "Know exactly which platforms — Steam, iOS, Android — Chapter 6 will support"
+      },
+      "featured": "Featured Release Articles",
+      "all": "All Release Articles"
+    },
+    "trailer": {
+      "title": "Poppy Playtime Chapter 6 Trailer",
+      "description": "Official teasers, cinematic trailers, and gameplay reveals for Poppy Playtime Chapter 6 with frame-by-frame analysis.",
+      "metaTitle": "Poppy Playtime Chapter 6 Trailer - Official Teasers & Analysis",
+      "metaDescription": "Watch and analyze all official Poppy Playtime Chapter 6 trailers and teasers. Get frame-by-frame breakdowns of clues, scenes, and story hints.",
+      "categoryLabel": "TRAILERS & TEASERS",
+      "whatIs": "What is the Trailer section?",
+      "whatIsDescription": "The Trailer section collects every official Poppy Playtime Chapter 6 video release from Mob Entertainment, including teasers, cinematic trailers, and gameplay reveals, with detailed analysis of each.",
+      "why": "Why watch trailer breakdowns?",
+      "whySteps": {
+        "step1Title": "Catch Every Clue",
+        "step1Description": "Trailers hide story hints that casual viewers often miss — our breakdowns find them all",
+        "step2Title": "Preview New Characters",
+        "step2Description": "Trailers are often the first glimpse of new enemies, allies, and environments",
+        "step3Title": "Understand the Story Setup",
+        "step3Description": "Each trailer builds on the previous chapter's ending to set up what comes next"
+      },
+      "featured": "Featured Trailer Analysis",
+      "all": "All Trailer Articles"
+    },
+    "guide": {
+      "title": "Poppy Playtime Chapter 6 Guide",
+      "description": "Complete gameplay guides, walkthrough tips, boss fight strategies, and puzzle solutions for Poppy Playtime Chapter 6.",
+      "metaTitle": "Poppy Playtime Chapter 6 Guide - Walkthroughs & Strategies",
+      "metaDescription": "Master Poppy Playtime Chapter 6 with complete walkthrough guides, boss fight strategies, puzzle solutions, and gameplay tips for all skill levels.",
+      "categoryLabel": "GUIDES & WALKTHROUGHS",
+      "whatIs": "What are Guides?",
+      "whatIsDescription": "The Guide section covers all gameplay aspects of Poppy Playtime Chapter 6 — from complete walkthroughs and puzzle solutions to boss fight strategies and GrabPack mechanics.",
+      "why": "Why use guides?",
+      "whySteps": {
+        "step1Title": "Master Puzzle Solutions",
+        "step1Description": "Never get stuck on environmental puzzles with step-by-step solutions",
+        "step2Title": "Beat Every Boss",
+        "step2Description": "Multi-phase boss fight strategies help you survive the most intense encounters",
+        "step3Title": "Experience the Full Story",
+        "step3Description": "Guides help you unlock every scene and secret without missing key story moments"
+      },
+      "featured": "Featured Guides",
+      "all": "All Guides"
+    },
+    "characters": {
+      "title": "Poppy Playtime Chapter 6 Characters",
+      "description": "Complete character guide for Poppy Playtime Chapter 6 — allies, enemies, the Prototype, and all returning favorites.",
+      "metaTitle": "Poppy Playtime Chapter 6 Characters - Full Cast Guide",
+      "metaDescription": "Meet every character in Poppy Playtime Chapter 6. Full profiles for the Prototype, Huggy Wuggy, Poppy, Smiling Critters, and all new enemies.",
+      "categoryLabel": "CHARACTERS & ENEMIES",
+      "whatIs": "What is the Characters section?",
+      "whatIsDescription": "The Characters section profiles every major character in Poppy Playtime Chapter 6 — including backstories, motivations, abilities, and how each character connects to the overall story.",
+      "why": "Why read character guides?",
+      "whySteps": {
+        "step1Title": "Understand Character Motivations",
+        "step1Description": "Know why characters act the way they do — enemies and allies alike",
+        "step2Title": "Anticipate Enemy Behavior",
+        "step2Description": "Understanding each villain's pattern helps you survive their encounters",
+        "step3Title": "Follow the Full Story",
+        "step3Description": "Character arcs carry the narrative — knowing them deepens the experience"
+      },
+      "featured": "Featured Characters",
+      "all": "All Characters"
+    },
+    "news": {
+      "title": "Poppy Playtime Chapter 6 News",
+      "description": "Latest official news, development updates, and announcements about Poppy Playtime Chapter 6 from Mob Entertainment.",
+      "metaTitle": "Poppy Playtime Chapter 6 News - Latest Updates & Announcements",
+      "metaDescription": "Stay current with Poppy Playtime Chapter 6 news. Official announcements, development updates, leaks analysis, and everything Mob Entertainment has revealed.",
+      "categoryLabel": "NEWS & UPDATES",
+      "whatIs": "What is the News section?",
+      "whatIsDescription": "The News section aggregates all official Poppy Playtime Chapter 6 updates from Mob Entertainment — Steam posts, social media announcements, YouTube reveals, and verified developer statements.",
+      "why": "Why follow Chapter 6 news?",
+      "whySteps": {
+        "step1Title": "Be First to Know",
+        "step1Description": "Official announcements happen fast — news coverage keeps you ahead",
+        "step2Title": "Separate Facts from Rumors",
+        "step2Description": "News coverage distinguishes confirmed information from community speculation",
+        "step3Title": "Track Development Progress",
+        "step3Description": "Follow Mob Entertainment's activity patterns to gauge how development is going"
+      },
+      "featured": "Latest News",
+      "all": "All News"
+    },
+    "movie": {
+      "title": "Poppy Playtime Chapter 6 Movie",
+      "description": "Everything about the Poppy Playtime movie adaptation, franchise media expansion, and what Chapter 6 means for the series beyond games.",
+      "metaTitle": "Poppy Playtime Chapter 6 Movie - Film Adaptation & Media Expansion",
+      "metaDescription": "Latest on the Poppy Playtime movie and franchise expansion. Chapter 6 story material, animated content, and what a Poppy Playtime film could look like.",
+      "categoryLabel": "MOVIE & MEDIA",
+      "whatIs": "What is the Movie section?",
+      "whatIsDescription": "The Movie section covers Poppy Playtime's expansion beyond games — including potential film adaptations, animated content from Mob Entertainment, and franchise media developments tied to Chapter 6 and beyond.",
+      "why": "Why follow the movie news?",
+      "whySteps": {
+        "step1Title": "Track Franchise Growth",
+        "step1Description": "Poppy Playtime is growing beyond games into broader media properties",
+        "step2Title": "Discover Official Animation",
+        "step2Description": "Mob Entertainment produces animated content that expands the lore",
+        "step3Title": "Understand the Full Universe",
+        "step3Description": "Media expansions often reveal lore details not covered in the games"
+      },
+      "featured": "Featured Movie Articles",
+      "all": "All Movie Articles"
+    },
+    "mobile": {
+      "title": "Poppy Playtime Chapter 6 Mobile",
+      "description": "Complete guide to Poppy Playtime Chapter 6 on iOS and Android — download instructions, mobile controls, and platform differences.",
+      "metaTitle": "Poppy Playtime Chapter 6 Mobile - iOS & Android Guide",
+      "metaDescription": "Download and play Poppy Playtime Chapter 6 on mobile. Complete guide for iOS and Android with download steps, system requirements, and gameplay tips.",
+      "categoryLabel": "MOBILE GUIDE",
+      "whatIs": "What is the Mobile section?",
+      "whatIsDescription": "The Mobile section covers everything about playing Poppy Playtime Chapter 6 on iOS and Android devices — download instructions, system requirements, mobile-specific controls, and how the mobile version compares to PC.",
+      "why": "Why use the mobile guide?",
+      "whySteps": {
+        "step1Title": "Download the Right Version",
+        "step1Description": "Know exactly how to find and install Poppy Playtime Chapter 6 on your device",
+        "step2Title": "Check Compatibility",
+        "step2Description": "Verify your device meets the requirements before downloading",
+        "step3Title": "Master Mobile Controls",
+        "step3Description": "Touch controls differ from PC — get tips to adapt quickly"
+      },
+      "featured": "Featured Mobile Guides",
+      "all": "All Mobile Articles"
+    },
+    "fanmade": {
+      "title": "Poppy Playtime Chapter 6 Fan Made",
+      "description": "Community fan made games, concept trailers, and creative projects inspired by Poppy Playtime Chapter 6.",
+      "metaTitle": "Poppy Playtime Chapter 6 Fan Made - Community Games & Projects",
+      "metaDescription": "Explore fan made Poppy Playtime Chapter 6 games, concept trailers, and creative community projects. Discover the best unofficial content while waiting for the official chapter.",
+      "categoryLabel": "FAN MADE",
+      "whatIs": "What is the Fan Made section?",
+      "whatIsDescription": "The Fan Made section showcases the best community-created Poppy Playtime Chapter 6 content — including fan games on Roblox and itch.io, concept trailers, fan art collections, and notable creative projects.",
+      "why": "Why explore fan made content?",
+      "whySteps": {
+        "step1Title": "Play Now While Waiting",
+        "step1Description": "Fan made games let you experience Chapter 6 concepts before the official release",
+        "step2Title": "Support Creative Fans",
+        "step2Description": "The Poppy Playtime community creates impressive content worth discovering",
+        "step3Title": "Explore Alternative Stories",
+        "step3Description": "Fan projects imagine unique Chapter 6 scenarios beyond official lore"
+      },
+      "featured": "Featured Fan Made Projects",
+      "all": "All Fan Made Content"
+    }
+  }
 }
