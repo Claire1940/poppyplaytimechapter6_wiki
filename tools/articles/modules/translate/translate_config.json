@@ -9,29 +9,21 @@
   "retry_attempts": 3,
   "retry_delay": 5,
 
-  "languages": ["ru", "pt", "de", "es", "ja", "ko", "fr"],
+  "languages": ["es", "pt", "ja"],
   "default_language": "en",
   "output_dir": "content/",
 
   "game_names": {
-    "en": "Lucid Blocks",
-    "ru": "Lucid Blocks",
-    "pt": "Lucid Blocks",
-    "de": "Lucid Blocks",
-    "es": "Lucid Blocks",
-    "ja": "Lucid Blocks",
-    "ko": "Lucid Blocks",
-    "fr": "Lucid Blocks"
+    "en": "Poppy Playtime Chapter 6",
+    "es": "Poppy Playtime Capítulo 6",
+    "pt": "Poppy Playtime Capítulo 6",
+    "ja": "ポピープレイタイム チャプター6"
   },
 
   "lang_names": {
-    "ru": "Russian",
-    "pt": "Portuguese (Brazil)",
-    "de": "German",
     "es": "Spanish (Latin America)",
-    "ja": "Japanese",
-    "ko": "Korean",
-    "fr": "French"
+    "pt": "Portuguese (Brazil)",
+    "ja": "Japanese"
   },
 
   "batch_size": 20,

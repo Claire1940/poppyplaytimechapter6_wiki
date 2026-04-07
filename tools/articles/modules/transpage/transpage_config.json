@@ -10,49 +10,33 @@
   "retry_attempts": 3,
   "retry_delay": 5,
 
-  "languages": ["ru", "pt", "de", "es", "ja", "ko", "fr"],
+  "languages": ["es", "pt", "ja"],
   "default_language": "en",
   "output_dir": "src/locales/",
 
   "use_value_extraction": false,
 
   "protected_terms": {
-    "game_names": ["Lucid Blocks"],
-    "character_names": [],
+    "game_names": ["Poppy Playtime Chapter 6", "Poppy Playtime"],
+    "character_names": ["Huggy Wuggy", "Mommy Long Legs", "Catnap", "Prototype"],
     "technical_terms": [
-      "Apotheosis",
       "Steam",
-      "Steam Deck",
-      "Vulkan",
-      "Fog Meadow",
-      "Heaven",
-      "Bubblebear",
-      "Angel",
-      "Hookshot",
-      "Bee Glider",
-      "Psychedelic",
-      "Surreal"
+      "Chapter 5",
+      "Chapter 6",
+      "Mob Entertainment"
     ]
   },
 
   "game_names": {
-    "en": "Lucid Blocks",
-    "ru": "Lucid Blocks",
-    "pt": "Lucid Blocks",
-    "de": "Lucid Blocks",
-    "es": "Lucid Blocks",
-    "ja": "Lucid Blocks",
-    "ko": "Lucid Blocks",
-    "fr": "Lucid Blocks"
+    "en": "Poppy Playtime Chapter 6",
+    "es": "Poppy Playtime Capítulo 6",
+    "pt": "Poppy Playtime Capítulo 6",
+    "ja": "ポピープレイタイム チャプター6"
   },
 
   "lang_names": {
-    "ru": "Russian",
-    "pt": "Portuguese (Brazil)",
-    "de": "German",
     "es": "Spanish (Latin America)",
-    "ja": "Japanese",
-    "ko": "Korean",
-    "fr": "French"
+    "pt": "Portuguese (Brazil)",
+    "ja": "Japanese"
   }
 }
