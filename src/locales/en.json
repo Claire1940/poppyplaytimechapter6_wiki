@@ -78,6 +78,26 @@
         "icon": "Film",
         "title": "Poppy Playtime Chapter 6 Ending Setup",
         "description": "Chapter 5 ending decoded: the Prototype confrontation, Poppy's capture, and Sawyer's return."
+      },
+      {
+        "icon": "Users",
+        "title": "Poppy Playtime Chapter 6 Characters",
+        "description": "Key allies, survivors, and carryover threats most likely to shape the next chapter."
+      },
+      {
+        "icon": "Skull",
+        "title": "Poppy Playtime Chapter 6 Villains",
+        "description": "Main antagonists and wildcard forces carrying the most story weight into Chapter 6."
+      },
+      {
+        "icon": "Target",
+        "title": "Poppy Playtime Chapter 6 The Prototype",
+        "description": "Identity, series role, Chapter 5 actions, and why every theory circles back to him."
+      },
+      {
+        "icon": "FlaskConical",
+        "title": "Poppy Playtime Chapter 6 Harley Sawyer",
+        "description": "Who he was, what he built, and how his Chapter 5 return changes the stakes."
       }
     ]
   },
@@ -225,6 +245,160 @@
             "Activating it reveals Harley Sawyer as the stored intelligence behind the Backup.",
             "That one reveal reframes Chapter 6 around three forces at once: the player, Sawyer, and the Prototype."
           ]
+        }
+      ]
+    },
+    "poppyCharacters": {
+      "title": "Poppy Playtime Chapter 6 Characters",
+      "eyebrow": "Story Cast",
+      "subtitle": "Chapter 5 leaves a tighter, more important cast around the Player. These allies, survivors, and carryover threats are the names most likely to shape the next chapter.",
+      "intro": "The ending of Broken Things narrows the field around a handful of characters who either escape with the Player, help drive the anti-Prototype plan, or return at the exact moment the story needs a new power player.",
+      "items": [
+        {
+          "name": "Poppy",
+          "role": "Core Ally",
+          "summary": "Poppy remains the emotional center of the series and one of the Player's most important guides. In Chapter 5, she is freed, injured by the Prototype during the tea-party confrontation, and brought back into the surviving group.",
+          "details": [
+            "Officially presented as Playtime Co.'s breakout doll with a voice box",
+            "Freed during the late Chapter 5 escape sequence",
+            "Reunites with the group after the Prototype damages her"
+          ]
+        },
+        {
+          "name": "Kissy Missy",
+          "role": "Frontline Ally",
+          "summary": "Kissy Missy is one of the last major friendly toys still moving with the Player's side. She attacks the Prototype at Lily Lovebraids' tea party, creating the opening that lets the escape continue.",
+          "details": [
+            "Listed as a Chapter 5 deuteragonist",
+            "Breaks the Prototype's immediate control of the tea-party scene",
+            "Reappears near the tram station during the endgame run"
+          ]
+        },
+        {
+          "name": "Giblet",
+          "role": "Resistance Planner",
+          "summary": "Giblet is one of Chapter 5's most important new helpers. He is part of the small group actively working against the Prototype and is directly tied to the plan around the negation formula backup.",
+          "details": [
+            "Listed as a Chapter 5 deuteragonist",
+            "Explains that the backup contains the Prototype's weakness",
+            "Pushes the Player toward the tram and the next objective"
+          ]
+        },
+        {
+          "name": "Chum Chompkins",
+          "role": "Inside Contact",
+          "summary": "Chum Chompkins works alongside Giblet in Chapter 5 and becomes part of the Player's narrow support network. He begins distrustful, but quickly becomes part of the operation moving the Player deeper through the Labs.",
+          "details": [
+            "Listed as a Chapter 5 deuteragonist",
+            "Helps protect the Player when the Prototype approaches",
+            "Tied to the same anti-Prototype plan as Giblet"
+          ]
+        },
+        {
+          "name": "Harley Sawyer",
+          "role": "Endgame Return",
+          "summary": "Harley Sawyer shifts from background history into direct Chapter 6 relevance at the end of Chapter 5. The backup the Player is sent to recover turns out to be Harley Sawyer himself, putting him back at the center of the story.",
+          "details": [
+            "Appears in Chapter 5 as a plot-twist comeback",
+            "Known as the architect of the Bigger Bodies Initiative",
+            "Now positioned as a major carryover character for the next chapter"
+          ]
+        },
+        {
+          "name": "The Prototype",
+          "role": "Central Threat",
+          "summary": "Even inside a character board, the Prototype cannot be separated from the Chapter 6 setup. Chapter 5 gives him a direct face-to-face confrontation with Poppy and the Player, making him the figure every surviving character is reacting to.",
+          "details": [
+            "Official bio describes him as intelligent, cunning, and crafty",
+            "Damages Poppy during the tea-party confrontation",
+            "Stalks the Player through the endgame route toward the tram"
+          ]
+        }
+      ]
+    },
+    "poppyVillains": {
+      "title": "Poppy Playtime Chapter 6 Villains",
+      "eyebrow": "Threat Board",
+      "subtitle": "Broken Things narrows the next chapter's danger map around a few major names. This module shows the antagonists and wildcard forces carrying the most story weight into the next phase.",
+      "intro": "Players searching for the next villain usually want more than a name. They want to know who is driving the story, who is doing the physical hunting, and who might destabilize the balance between the Player and the Prototype.",
+      "items": [
+        {
+          "name": "The Prototype",
+          "threat_type": "Primary Antagonist",
+          "summary": "The Prototype is the main antagonist of Poppy Playtime and the dominant force behind the end of Chapter 5. He directly confronts Poppy, damages her, stalks the Player, and remains the center of the factory's power structure.",
+          "details": [
+            "Also known as Experiment 1006",
+            "Described as cunning, intelligent, and violent",
+            "Orchestrated the Hour of Joy and drives the late-game pressure in Broken Things"
+          ]
+        },
+        {
+          "name": "Harley Sawyer",
+          "threat_type": "Endgame Wildcard",
+          "summary": "Harley Sawyer matters because he combines human-era experiment history with a live return to the story. As the mind behind the Bigger Bodies Initiative and the ending reveal behind the backup, he enters Chapter 6 as a destabilizing force.",
+          "details": [
+            "Known to most characters as The Doctor",
+            "Responsible for the Bigger Bodies Initiative",
+            "Reintroduced as the backup recovered at the end of Chapter 5"
+          ]
+        },
+        {
+          "name": "Huggy Wuggy",
+          "threat_type": "Physical Hunter",
+          "summary": "Huggy Wuggy remains one of the series' most dangerous chase threats. Chapter 5 keeps him active as the factory's pursuing force, including a major ambush near the tram-side endgame stretch.",
+          "details": [
+            "Serves as Playtime's security-system pursuer in Chapter 5",
+            "Keeps direct physical pressure on the Player",
+            "Helps keep the finale dangerous even before the last confrontation peaks"
+          ]
+        }
+      ]
+    },
+    "poppyPrototype": {
+      "title": "Poppy Playtime Chapter 6 The Prototype",
+      "eyebrow": "Lore File",
+      "subtitle": "The Prototype is the one name every Chapter 6 theory circles back to. This module gives a clean read on his identity, his actions, and why the next chapter cannot move forward without him.",
+      "intro": "Prototype searches sit at the center of late-stage Poppy Playtime interest because they connect lore, motive, and future story direction in one place. Instead of scattering across old chapter summaries, this module organizes the core facts that matter most after Broken Things.",
+      "items": [
+        {
+          "title": "Identity",
+          "content": "The Prototype is Experiment 1006 and the main antagonist of Poppy Playtime. Official character material describes him as intelligent, cunning, and crafty, while the lore pages present him as a feared and respected force inside the factory."
+        },
+        {
+          "title": "Series Role",
+          "content": "His presence runs across the full story arc. He is referenced as early as Chapter 1, physically tied to later chapter events, revealed as the main antagonist of Broken Things, and treated as the central architect behind the factory's long-running horrors."
+        },
+        {
+          "title": "Chapter 5 Actions",
+          "content": "Broken Things moves him from background menace to direct confrontation. At Lily Lovebraids' tea party, he faces Poppy and the Player head-on, says he sent the orphans to a Better Place, damages Poppy, and continues stalking the Player through the endgame route."
+        },
+        {
+          "title": "Why He Matters for Chapter 6",
+          "content": "Chapter 5 ends with the anti-Prototype plan still unresolved, which leaves him as the pressure point for every remaining character. Poppy, Giblet, Kissy Missy, and Harley Sawyer are all now defined by how they oppose, understand, or survive him."
+        }
+      ]
+    },
+    "poppyHarleySawyer": {
+      "title": "Poppy Playtime Chapter 6 Harley Sawyer",
+      "eyebrow": "Character File",
+      "subtitle": "Harley Sawyer is no longer just a name buried in experiment lore. Chapter 5 pushes him back into the main story and turns him into one of the most important human-linked figures in the next chapter.",
+      "intro": "Users searching Harley Sawyer usually want three things at once: who he was, what he built, and why his return changes the stakes. This module answers all three in one place.",
+      "items": [
+        {
+          "title": "Who Harley Sawyer Is",
+          "content": "Harley Sawyer is the Head of Special Projects and the figure most characters know as The Doctor. Official material describes him as the originator of the Bigger Bodies Initiative and a ruthless, egotistical scientist tied to the factory's darkest work."
+        },
+        {
+          "title": "The Doctor",
+          "content": "The official character bio presents him as a mind trapped in wires and terminals after the same kind of experimentation he inflicted on others. That transformation is what turns Harley Sawyer from a corporate-era scientist into one of the series' most disturbing recurring figures."
+        },
+        {
+          "title": "Bigger Bodies Initiative",
+          "content": "Harley Sawyer's biggest story function is simple: he built the program that converted orphans into living toys. That makes him one of the clearest links between Playtime Co.'s human leadership, the experiment system, and the monsters still shaping the story."
+        },
+        {
+          "title": "Why Chapter 5 Changes Everything",
+          "content": "At the end of Chapter 5, the backup the Player is sent to recover is revealed to be Harley Sawyer. That twist pulls him out of archived history and places him directly into the next phase of the conflict around the Prototype."
         }
       ]
     }
