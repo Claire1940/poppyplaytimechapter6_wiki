@@ -77,7 +77,7 @@ interface HomePageClientProps {
 
 export default function HomePageClient({ latestArticles, moduleLinkMap, locale }: HomePageClientProps) {
   const t = useMessages() as any
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://poppyplaytimechapter6.wiki'
 
   // Structured data
   const structuredData = {
@@ -87,14 +87,14 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
         '@type': 'WebSite',
         '@id': `${siteUrl}/#website`,
         url: siteUrl,
-        name: "Lucid Blocks Wiki",
-        description: "Complete Lucid Blocks Wiki covering crafting, biomes, creatures, items, achievements, lore, and survival tips for the surreal voxel sandbox on Steam.",
+        name: "Poppy Playtime Chapter 6",
+        description: "Track Poppy Playtime Chapter 6 release news, trailer clues, story theories, Prototype updates, and Chapter 5 ending fallout.",
         image: {
           '@type': 'ImageObject',
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          caption: "Lucid Blocks - Surreal Voxel Survival Sandbox",
+          caption: "Poppy Playtime Chapter 6 - Horror Puzzle Sequel Tracker",
         },
         potentialAction: {
           '@type': 'SearchAction',
@@ -105,10 +105,10 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       {
         '@type': 'Organization',
         '@id': `${siteUrl}/#organization`,
-        name: "Lucid Blocks Wiki",
-        alternateName: "Lucid Blocks",
+        name: "Poppy Playtime Chapter 6",
+        alternateName: "Poppy Playtime Ch6",
         url: siteUrl,
-        description: "Complete Lucid Blocks Wiki resource hub for crafting, biomes, creatures, items, achievements, and survival guides",
+        description: "Tracker for Poppy Playtime Chapter 6 release news, trailer breakdowns, lore theories, and Prototype updates",
         logo: {
           '@type': 'ImageObject',
           url: `${siteUrl}/android-chrome-512x512.png`,
@@ -120,21 +120,22 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          caption: "Lucid Blocks Wiki - Surreal Voxel Survival Sandbox",
+          caption: "Poppy Playtime Chapter 6 - Horror Puzzle Sequel Tracker",
         },
         sameAs: [
-          'https://store.steampowered.com/app/3495730/Lucid_Blocks/',
-          'https://discord.com/invite/lucidblocks',
-          'https://www.reddit.com/r/LucidBlocks/',
-          'https://www.youtube.com/@lucy_b_locks',
+          'https://store.steampowered.com/app/1721470/Poppy_Playtime/',
+          'https://discord.com/invite/FmsXQDK7Zp',
+          'https://www.reddit.com/r/PoppyPlaytime/',
+          'https://x.com/mobgamesstudios',
+          'https://www.youtube.com/channel/UCXqV4yoyC_mmZye6VbKFPeQ',
         ],
       },
       {
         '@type': 'VideoGame',
-        name: "Lucid Blocks",
+        name: "Poppy Playtime",
         gamePlatform: ['PC', 'Steam'],
         applicationCategory: 'Game',
-        genre: ['Survival', 'Sandbox', 'Adventure', 'Psychedelic'],
+        genre: ['Horror', 'Puzzle', 'Adventure'],
         numberOfPlayers: {
           minValue: 1,
           maxValue: 1,
@@ -143,7 +144,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
           '@type': 'Offer',
           priceCurrency: 'USD',
           availability: 'https://schema.org/InStock',
-          url: 'https://store.steampowered.com/app/3495730/Lucid_Blocks/',
+          url: 'https://store.steampowered.com/app/1721470/Poppy_Playtime/',
         },
       },
     ],
@@ -236,7 +237,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 {t.hero.getFreeCodesCTA}
               </button>
               <a
-                href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                href="https://www.mobentertainment.com/poppy-playtime"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4
@@ -266,7 +267,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             <VideoFeature
               videoId="EriEensiy0I"
               title="Poppy Playtime: Chapter 5 - Official Game Trailer"
-              posterImage="/images/hero.webp"
+              posterImage="https://poppyplaytimechapter6.wiki/images/hero.webp"
             />
           </div>
         </div>
@@ -832,13 +833,13 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 <h3 className="font-bold text-yellow-400 mb-2">Still having issues?</h3>
                 <p className="text-sm text-muted-foreground mb-3">Report bugs with your logs through the official channels:</p>
                 <div className="flex flex-wrap gap-3">
-                  <a href="https://discord.com/invite/lucidblocks" target="_blank" rel="noopener noreferrer"
+                  <a href="https://discord.com/invite/FmsXQDK7Zp" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
                     <MessageCircle className="w-4 h-4" /> Discord <ExternalLink className="w-3 h-3" />
                   </a>
-                  <a href="https://store.steampowered.com/app/3495730/Lucid_Blocks/" target="_blank" rel="noopener noreferrer"
+                  <a href="https://store.steampowered.com/app/1721470/Poppy_Playtime/" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
-                    Steam Community <ExternalLink className="w-3 h-3" />
+                    Steam Store <ExternalLink className="w-3 h-3" />
                   </a>
                 </div>
               </div>
@@ -888,7 +889,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
               <ul className="space-y-2 text-sm">
                 <li>
                   <a
-                    href="https://discord.com/invite/lucidblocks"
+                    href="https://discord.com/invite/FmsXQDK7Zp"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -898,7 +899,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 </li>
                 <li>
                   <a
-                    href="https://x.com/lucidblocks"
+                    href="https://x.com/mobgamesstudios"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -908,7 +909,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 </li>
                 <li>
                   <a
-                    href="https://steamcommunity.com/app/3495730"
+                    href="https://www.reddit.com/r/PoppyPlaytime/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -918,7 +919,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 </li>
                 <li>
                   <a
-                    href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                    href="https://store.steampowered.com/app/1721470/Poppy_Playtime/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"

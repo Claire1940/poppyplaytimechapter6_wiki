@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Poppy Playtime Chapter 6 - Release, Trailer & Theories",
+      "description": "Track Poppy Playtime Chapter 6 release news, trailer clues, story theories, Prototype updates, and Chapter 5 ending fallout in one fast horror guide hub.",
+      "keywords": "Poppy Playtime Chapter 6, Poppy Playtime, release date, trailer, Prototype, theories, ending",
+      "ogTitle": "Poppy Playtime Chapter 6 - Release, Trailer & Theories",
+      "ogDescription": "Track Poppy Playtime Chapter 6 release news, trailer clues, story theories, Prototype updates, and Chapter 5 ending fallout in one fast horror guide hub.",
+      "twitterTitle": "Poppy Playtime Chapter 6 - Release, Trailer & Theories",
+      "twitterDescription": "Track Poppy Playtime Chapter 6 release news, trailer clues, story theories, Prototype updates, and Chapter 5 ending fallout."
     }
   },
   "nav": {
@@ -33,27 +33,27 @@
     "readMore": "Read More"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Horror Puzzle Sequel Tracker",
+    "title": "Poppy Playtime Chapter 6",
+    "description": "Follow release-watch updates, trailer breakdowns, lore theories, Prototype clues, and Chapter 5 fallout for the next Poppy Playtime chapter.",
+    "getFreeCodesCTA": "Track Release News",
+    "playOnSteamCTA": "Official Site",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "5",
+        "label": "Released Chapters"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "Feb 18, 2026",
+        "label": "Latest Official Release"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "60M+",
+        "label": "Latest Trailer Views"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "7,432",
+        "label": "Chapter 5 Purchaser Reviews"
       }
     }
   },
@@ -784,26 +784,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Follow Poppy Playtime Chapter 6?",
+    "description": "Join the Poppy Playtime community on Discord for theories, updates, and discussions!",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "Official Site"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Poppy Playtime Chapter 6",
+    "description": "Your tracker for Poppy Playtime Chapter 6 release news, trailer breakdowns, lore theories, and Prototype updates.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
+    "steamCommunity": "Reddit Community",
     "steamStore": "Steam Store",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Poppy Playtime Chapter 6. Not affiliated with Mob Entertainment.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
