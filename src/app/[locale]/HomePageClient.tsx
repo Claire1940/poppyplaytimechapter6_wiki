@@ -264,8 +264,8 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
         <div className="scroll-reveal container mx-auto max-w-4xl">
           <div className="relative rounded-2xl overflow-hidden">
             <VideoFeature
-              videoId="7C7fybRM_No"
-              title="LUCID BLOCKS | AVAILABLE NOW"
+              videoId="EriEensiy0I"
+              title="Poppy Playtime: Chapter 5 - Official Game Trailer"
               posterImage="/images/hero.webp"
             />
           </div>
