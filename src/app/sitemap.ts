@@ -49,19 +49,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 		})
 	}
 
-	// 2. 静态页面（所有语言版本）
-	const staticPages = ['about', 'privacy-policy', 'terms-of-service', 'copyright']
-	for (const locale of routing.locales) {
-		for (const page of staticPages) {
-			const config = staticPagesConfig[page] || { priority: 0.5, changeFrequency: 'monthly' as const }
-			sitemap.push({
-				url: locale === 'en' ? `${BASE_URL}/${page}` : `${BASE_URL}/${locale}/${page}`,
-				lastModified: new Date(),
-				changeFrequency: config.changeFrequency,
-				priority: config.priority,
-			})
-		}
-	}
+	// 2. 静态页面 — noindex 页面不加入 sitemap
 
 	// 3. 所有 MDX 文章（所有语言版本和内容类型）
 	for (const locale of routing.locales) {
