@@ -14,46 +14,46 @@ interface ArticleWithType extends ContentItem {
 
 // Module sub-field mapping: moduleKey -> { field, nameKey }
 const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
-  lucidBlocksBeginnerGuide: { field: 'steps', nameKey: 'title' },
-  lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
-  lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
-  lucidBlocksStorageAndInventory: { field: 'solutions', nameKey: 'name' },
-  lucidBlocksQualiaAndBaseBuilding: { field: 'cards', nameKey: 'name' },
-  lucidBlocksWorldRegions: { field: 'regions', nameKey: 'name' },
-  lucidBlocksCreaturesAndEnemies: { field: 'creatures', nameKey: 'name' },
-  lucidBlocksMobilityGear: { field: 'items', nameKey: 'name' },
-  lucidBlocksFarmingAndGrowth: { field: 'sections', nameKey: 'name' },
-  lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
-  lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
-  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+  poppyReleaseDate: { field: 'items', nameKey: 'title' },
+  poppyTrailer: { field: 'items', nameKey: 'title' },
+  poppyStoryTheories: { field: 'items', nameKey: 'title' },
+  poppyEndingSetup: { field: 'items', nameKey: 'title' },
+  poppyCharacters: { field: 'items', nameKey: 'name' },
+  poppyVillains: { field: 'items', nameKey: 'name' },
+  poppyPrototype: { field: 'items', nameKey: 'title' },
+  poppyHarleySawyer: { field: 'items', nameKey: 'title' },
+  poppyWalkthrough: { field: 'items', nameKey: 'section' },
+  poppyPuzzleCodes: { field: 'items', nameKey: 'label' },
+  poppyPressureHand: { field: 'items', nameKey: 'heading' },
+  poppyTapeLocations: { field: 'items', nameKey: 'name' },
+  poppyCollectiblesGuide: { field: 'items', nameKey: 'label' },
+  poppyNotesDocuments: { field: 'items', nameKey: 'section' },
+  poppyPlatforms: { field: 'items', nameKey: 'platform' },
+  poppyPriceDlc: { field: 'items', nameKey: 'product' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  poppyReleaseDate: ['release', 'confirmed', 'date', 'timeline', 'launch'],
+  poppyTrailer: ['trailer', 'teaser', 'official', 'breakdown', 'video'],
+  poppyStoryTheories: ['story', 'theories', 'lore', 'plot', 'ending'],
+  poppyEndingSetup: ['ending', 'broken things', 'escape', 'rescue'],
+  poppyCharacters: ['characters', 'cast', 'kissy missy', 'huggy wuggy', 'smiling critters'],
+  poppyVillains: ['villains', 'prototype', 'harley sawyer', 'boss', 'huggy wuggy'],
+  poppyPrototype: ['prototype', 'villain', 'lore', 'boss fight', 'identity'],
+  poppyHarleySawyer: ['harley sawyer', 'doctor', 'bigger bodies', 'scientist'],
+  poppyWalkthrough: ['walkthrough', 'guide', 'gameplay', 'mechanics', 'boss fight'],
+  poppyPuzzleCodes: ['puzzle', 'codes', 'locker', 'number pad', 'solution'],
+  poppyPressureHand: ['pressure hand', 'grabpack', 'upgrade', 'boss fight', 'mechanics'],
+  poppyTapeLocations: ['tape', 'vhs', 'collectibles', 'locations', 'audio'],
+  poppyCollectiblesGuide: ['collectibles', 'completion', 'tracker', 'guide'],
+  poppyNotesDocuments: ['notes', 'documents', 'lore', 'archive', 'theories'],
+  poppyPlatforms: ['platforms', 'steam', 'download', 'mobile', 'ios android'],
+  poppyPriceDlc: ['price', 'dlc', 'cost', 'buy', 'free', 'storefront'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['poppy', 'playtime', 'chapter', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -77,9 +77,9 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title (stripped of "Poppy Playtime Chapter 6")
+  const strippedQuery = normalizedQuery.replace(/poppy playtime chapter\s*\d*\s*/gi, '').trim()
+  const strippedTitle = normalizedTitle.replace(/poppy playtime chapter\s*\d*\s*/gi, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }
