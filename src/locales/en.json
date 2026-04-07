@@ -10,7 +10,16 @@
       "twitterDescription": "Track Poppy Playtime Chapter 6 release news, trailer clues, story theories, Prototype updates, and Chapter 5 ending fallout."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "trailer": "Trailer",
+    "guide": "Guide",
+    "characters": "Characters",
+    "news": "News",
+    "movie": "Movie",
+    "mobile": "Mobile",
+    "fanmade": "Fan Made"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -990,125 +999,165 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Poppy Playtime Chapter 6 Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Poppy Playtime Chapter 6 Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Poppy Playtime Chapter 6 guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "release": {
+      "title": "Poppy Playtime Chapter 6 Release Date",
+      "description": "Official release status, chapter cadence analysis, and the current timing window for Poppy Playtime Chapter 6.",
+      "metaTitle": "Poppy Playtime Chapter 6 Release Date - Official Status & Timeline",
+      "metaDescription": "Track the Poppy Playtime Chapter 6 release date with historical chapter cadence, platform availability updates, and official announcement monitoring.",
+      "categoryLabel": "RELEASE INFO",
+      "whatIs": "What is the Release Date section?",
+      "whatIsDescription": "The Release Date section tracks everything known about when Poppy Playtime Chapter 6 will launch, including official statements from Mob Entertainment, historical chapter release patterns, and platform availability.",
+      "why": "Why track the release date?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Stay Ahead of Announcements",
+        "step1Description": "Get notified the moment Mob Entertainment confirms Chapter 6 dates",
+        "step2Title": "Understand the Timeline",
+        "step2Description": "Historical chapter gaps help estimate when the next chapter could arrive",
+        "step3Title": "Platform Coverage",
+        "step3Description": "Know exactly which platforms — Steam, iOS, Android — Chapter 6 will support"
       },
-      "featured": "Featured & Essential",
+      "featured": "Featured Release Articles",
+      "all": "All Release Articles"
+    },
+    "trailer": {
+      "title": "Poppy Playtime Chapter 6 Trailer",
+      "description": "Official teasers, cinematic trailers, and gameplay reveals for Poppy Playtime Chapter 6 with frame-by-frame analysis.",
+      "metaTitle": "Poppy Playtime Chapter 6 Trailer - Official Teasers & Analysis",
+      "metaDescription": "Watch and analyze all official Poppy Playtime Chapter 6 trailers and teasers. Get frame-by-frame breakdowns of clues, scenes, and story hints.",
+      "categoryLabel": "TRAILERS & TEASERS",
+      "whatIs": "What is the Trailer section?",
+      "whatIsDescription": "The Trailer section collects every official Poppy Playtime Chapter 6 video release from Mob Entertainment, including teasers, cinematic trailers, and gameplay reveals, with detailed analysis of each.",
+      "why": "Why watch trailer breakdowns?",
+      "whySteps": {
+        "step1Title": "Catch Every Clue",
+        "step1Description": "Trailers hide story hints that casual viewers often miss — our breakdowns find them all",
+        "step2Title": "Preview New Characters",
+        "step2Description": "Trailers are often the first glimpse of new enemies, allies, and environments",
+        "step3Title": "Understand the Story Setup",
+        "step3Description": "Each trailer builds on the previous chapter's ending to set up what comes next"
+      },
+      "featured": "Featured Trailer Analysis",
+      "all": "All Trailer Articles"
+    },
+    "guide": {
+      "title": "Poppy Playtime Chapter 6 Guide",
+      "description": "Complete gameplay guides, walkthrough tips, boss fight strategies, and puzzle solutions for Poppy Playtime Chapter 6.",
+      "metaTitle": "Poppy Playtime Chapter 6 Guide - Walkthroughs & Strategies",
+      "metaDescription": "Master Poppy Playtime Chapter 6 with complete walkthrough guides, boss fight strategies, puzzle solutions, and gameplay tips for all skill levels.",
+      "categoryLabel": "GUIDES & WALKTHROUGHS",
+      "whatIs": "What are Guides?",
+      "whatIsDescription": "The Guide section covers all gameplay aspects of Poppy Playtime Chapter 6 — from complete walkthroughs and puzzle solutions to boss fight strategies and GrabPack mechanics.",
+      "why": "Why use guides?",
+      "whySteps": {
+        "step1Title": "Master Puzzle Solutions",
+        "step1Description": "Never get stuck on environmental puzzles with step-by-step solutions",
+        "step2Title": "Beat Every Boss",
+        "step2Description": "Multi-phase boss fight strategies help you survive the most intense encounters",
+        "step3Title": "Experience the Full Story",
+        "step3Description": "Guides help you unlock every scene and secret without missing key story moments"
+      },
+      "featured": "Featured Guides",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Poppy Playtime Chapter 6 Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Poppy Playtime Chapter 6 Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Poppy Playtime Chapter 6 Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "characters": {
+      "title": "Poppy Playtime Chapter 6 Characters",
+      "description": "Complete character guide for Poppy Playtime Chapter 6 — allies, enemies, the Prototype, and all returning favorites.",
+      "metaTitle": "Poppy Playtime Chapter 6 Characters - Full Cast Guide",
+      "metaDescription": "Meet every character in Poppy Playtime Chapter 6. Full profiles for the Prototype, Huggy Wuggy, Poppy, Smiling Critters, and all new enemies.",
+      "categoryLabel": "CHARACTERS & ENEMIES",
+      "whatIs": "What is the Characters section?",
+      "whatIsDescription": "The Characters section profiles every major character in Poppy Playtime Chapter 6 — including backstories, motivations, abilities, and how each character connects to the overall story.",
+      "why": "Why read character guides?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Understand Character Motivations",
+        "step1Description": "Know why characters act the way they do — enemies and allies alike",
+        "step2Title": "Anticipate Enemy Behavior",
+        "step2Description": "Understanding each villain's pattern helps you survive their encounters",
+        "step3Title": "Follow the Full Story",
+        "step3Description": "Character arcs carry the narrative — knowing them deepens the experience"
       },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "featured": "Featured Characters",
+      "all": "All Characters"
     },
-    "items": {
-      "title": "Poppy Playtime Chapter 6 Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Poppy Playtime Chapter 6 Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Poppy Playtime Chapter 6 including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "news": {
+      "title": "Poppy Playtime Chapter 6 News",
+      "description": "Latest official news, development updates, and announcements about Poppy Playtime Chapter 6 from Mob Entertainment.",
+      "metaTitle": "Poppy Playtime Chapter 6 News - Latest Updates & Announcements",
+      "metaDescription": "Stay current with Poppy Playtime Chapter 6 news. Official announcements, development updates, leaks analysis, and everything Mob Entertainment has revealed.",
+      "categoryLabel": "NEWS & UPDATES",
+      "whatIs": "What is the News section?",
+      "whatIsDescription": "The News section aggregates all official Poppy Playtime Chapter 6 updates from Mob Entertainment — Steam posts, social media announcements, YouTube reveals, and verified developer statements.",
+      "why": "Why follow Chapter 6 news?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Be First to Know",
+        "step1Description": "Official announcements happen fast — news coverage keeps you ahead",
+        "step2Title": "Separate Facts from Rumors",
+        "step2Description": "News coverage distinguishes confirmed information from community speculation",
+        "step3Title": "Track Development Progress",
+        "step3Description": "Follow Mob Entertainment's activity patterns to gauge how development is going"
       },
-      "featured": "Featured & Essential",
-      "all": "All Items"
+      "featured": "Latest News",
+      "all": "All News"
     },
-    "biomes": {
-      "title": "Poppy Playtime Chapter 6 Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Poppy Playtime Chapter 6 Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Poppy Playtime Chapter 6 biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "movie": {
+      "title": "Poppy Playtime Chapter 6 Movie",
+      "description": "Everything about the Poppy Playtime movie adaptation, franchise media expansion, and what Chapter 6 means for the series beyond games.",
+      "metaTitle": "Poppy Playtime Chapter 6 Movie - Film Adaptation & Media Expansion",
+      "metaDescription": "Latest on the Poppy Playtime movie and franchise expansion. Chapter 6 story material, animated content, and what a Poppy Playtime film could look like.",
+      "categoryLabel": "MOVIE & MEDIA",
+      "whatIs": "What is the Movie section?",
+      "whatIsDescription": "The Movie section covers Poppy Playtime's expansion beyond games — including potential film adaptations, animated content from Mob Entertainment, and franchise media developments tied to Chapter 6 and beyond.",
+      "why": "Why follow the movie news?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Track Franchise Growth",
+        "step1Description": "Poppy Playtime is growing beyond games into broader media properties",
+        "step2Title": "Discover Official Animation",
+        "step2Description": "Mob Entertainment produces animated content that expands the lore",
+        "step3Title": "Understand the Full Universe",
+        "step3Description": "Media expansions often reveal lore details not covered in the games"
       },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "featured": "Featured Movie Articles",
+      "all": "All Movie Articles"
     },
-    "building": {
-      "title": "Poppy Playtime Chapter 6 Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Poppy Playtime Chapter 6 Building - Qualia & Base Construction",
-      "metaDescription": "Master Poppy Playtime Chapter 6 building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "mobile": {
+      "title": "Poppy Playtime Chapter 6 Mobile",
+      "description": "Complete guide to Poppy Playtime Chapter 6 on iOS and Android — download instructions, mobile controls, and platform differences.",
+      "metaTitle": "Poppy Playtime Chapter 6 Mobile - iOS & Android Guide",
+      "metaDescription": "Download and play Poppy Playtime Chapter 6 on mobile. Complete guide for iOS and Android with download steps, system requirements, and gameplay tips.",
+      "categoryLabel": "MOBILE GUIDE",
+      "whatIs": "What is the Mobile section?",
+      "whatIsDescription": "The Mobile section covers everything about playing Poppy Playtime Chapter 6 on iOS and Android devices — download instructions, system requirements, mobile-specific controls, and how the mobile version compares to PC.",
+      "why": "Why use the mobile guide?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Download the Right Version",
+        "step1Description": "Know exactly how to find and install Poppy Playtime Chapter 6 on your device",
+        "step2Title": "Check Compatibility",
+        "step2Description": "Verify your device meets the requirements before downloading",
+        "step3Title": "Master Mobile Controls",
+        "step3Description": "Touch controls differ from PC — get tips to adapt quickly"
       },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "featured": "Featured Mobile Guides",
+      "all": "All Mobile Articles"
     },
-    "support": {
-      "title": "Poppy Playtime Chapter 6 Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Poppy Playtime Chapter 6 Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Poppy Playtime Chapter 6 including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "fanmade": {
+      "title": "Poppy Playtime Chapter 6 Fan Made",
+      "description": "Community fan made games, concept trailers, and creative projects inspired by Poppy Playtime Chapter 6.",
+      "metaTitle": "Poppy Playtime Chapter 6 Fan Made - Community Games & Projects",
+      "metaDescription": "Explore fan made Poppy Playtime Chapter 6 games, concept trailers, and creative community projects. Discover the best unofficial content while waiting for the official chapter.",
+      "categoryLabel": "FAN MADE",
+      "whatIs": "What is the Fan Made section?",
+      "whatIsDescription": "The Fan Made section showcases the best community-created Poppy Playtime Chapter 6 content — including fan games on Roblox and itch.io, concept trailers, fan art collections, and notable creative projects.",
+      "why": "Why explore fan made content?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Play Now While Waiting",
+        "step1Description": "Fan made games let you experience Chapter 6 concepts before the official release",
+        "step2Title": "Support Creative Fans",
+        "step2Description": "The Poppy Playtime community creates impressive content worth discovering",
+        "step3Title": "Explore Alternative Stories",
+        "step3Description": "Fan projects imagine unique Chapter 6 scenarios beyond official lore"
       },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "featured": "Featured Fan Made Projects",
+      "all": "All Fan Made Content"
     }
   }
 }

@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "Rehberler",
-    "crafting": "Üretim",
-    "items": "Eşyalar",
-    "biomes": "Biyomlar",
-    "building": "İnşa",
-    "support": "Destek"
+    "release": "Çıkış",
+    "trailer": "Fragman",
+    "guide": "Rehber",
+    "characters": "Karakterler",
+    "news": "Haberler",
+    "movie": "Film",
+    "mobile": "Mobil",
+    "fanmade": "Fan Yapımı"
   },
   "common": {
     "home": "Ana Sayfa",
@@ -840,126 +842,5 @@
     "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocks geliştiricileriyle bağlantılı değildir.",
     "disclaimer": "Resmi olmayan hayran yapımı kaynak web sitesi."
   },
-  "pages": {
-    "guides": {
-      "title": "Lucid Blocks Rehberleri",
-      "description": "Başlangıç seviyesinden ileri düzey Apotheosis stratejilerine kadar eksiksiz oynanış rehberleri. Hayatta kalma ve üretimde ustalaşın.",
-      "metaTitle": "Lucid Blocks Rehberleri - Başlangıçtan İleri Düzey Stratejilere",
-      "metaDescription": "Başlangıç ipuçlarını, Apotheosis sistemini, hayatta kalma stratejilerini ve gerçeküstü sandbox dünyasında ustalaşmak için uzman taktiklerini kapsayan eksiksiz Lucid Blocks rehberleri.",
-      "categoryLabel": "OYUN REHBERLERİ",
-      "whatIs": "Rehberler Nedir?",
-      "whatIsDescription": "Oynanış mekaniklerini, hayatta kalma stratejilerini ve Apotheosis üretim sistemini kapsayan kapsamlı rehberler. İlk adımlardan ileri tekniklere kadar her şeyi öğrenin.",
-      "why": "Neden rehberleri okumalısınız?",
-      "whySteps": {
-        "step1Title": "Temel Mekanikleri Öğrenin",
-        "step1Description": "Apotheosis sistemini anlayın ve yaygın başlangıç hatalarından kaçının",
-        "step2Title": "Hızlı İlerleme",
-        "step2Description": "Gerçeküstü dünyada hayatta kalmak ve gelişmek için kanıtlanmış yolları izleyin",
-        "step3Title": "Stratejilerde Ustalaşın",
-        "step3Description": "Keşif ve üretim için ileri düzey taktikler geliştirin"
-      },
-      "featured": "Öne Çıkanlar ve Temel Bilgiler",
-      "all": "Tüm Rehberler"
-    },
-    "crafting": {
-      "title": "Lucid Blocks Üretim",
-      "description": "Öz mekanikleri, tarifler ve güçlü eşyalar için üretim stratejileri ile Apotheosis füzyon sisteminde ustalaşın.",
-      "metaTitle": "Lucid Blocks Üretim - Apotheosis Sistemi ve Tarifler",
-      "metaDescription": "Lucid Blocks Apotheosis üretim sisteminde ustalaşın. Öz mekaniklerini, füzyon tariflerini ve güçlü araçlar ile silahlar oluşturma stratejilerini öğrenin.",
-      "categoryLabel": "ÜRETİM SİSTEMİ",
-      "whatIs": "Üretim Nedir?",
-      "whatIsDescription": "Apotheosis sistemi, yeni tarifler keşfetmek için altı adede kadar eşyayı birleştirdiğiniz benzersiz bir öz odaklı füzyon mekaniğidir. Sabit üretim menüleri yoktur; deney yapmak anahtardır.",
-      "why": "Neden üretimde ustalaşmalısınız?",
-      "whySteps": {
-        "step1Title": "Güçlü Eşyaların Kilidini Açın",
-        "step1Description": "Füzyon yoluyla temel araçları, silahları ve hareket ekipmanlarını keşfedin",
-        "step2Title": "Özleri Anlayın",
-        "step2Description": "Eşya özlerinin öngörülebilir sonuçlar oluşturmak için nasıl birleştiğini öğrenin",
-        "step3Title": "Kaynakları Optimize Edin",
-        "step3Description": "Ucuz malzemelerden çıktıyı maksimize etmek için seyreltme mekaniklerini kullanın"
-      },
-      "featured": "Öne Çıkanlar ve Temel Bilgiler",
-      "all": "Tüm Üretim Rehberleri"
-    },
-    "items": {
-      "title": "Lucid Blocks Eşyaları",
-      "description": "Üretim tarifleri ve kullanım ipuçlarıyla birlikte araçları, silahları, hareket ekipmanlarını ve depolama çözümlerini kapsayan ayrıntılı eşya rehberleri.",
-      "metaTitle": "Lucid Blocks Eşyaları - Araçlar, Silahlar ve Ekipman Rehberi",
-      "metaDescription": "Araçlar, silahlar, hareket ekipmanları ve depolama dahil olmak üzere Lucid Blocks için eksiksiz eşya veritabanı. Her eşyayı nasıl üreteceğinizi ve etkili bir şekilde kullanacağınızı öğrenin.",
-      "categoryLabel": "EŞYALAR VE EKİPMANLAR",
-      "whatIs": "Eşyalar Nedir?",
-      "whatIsDescription": "Araçlar, silahlar, hareket ekipmanları ve işlevsel eşyalar için kapsamlı rehberler. Üretim tariflerini, kullanım stratejilerini ve en uygun kombinasyonları öğrenin.",
-      "why": "Neden eşya rehberlerine bakmalısınız?",
-      "whySteps": {
-        "step1Title": "Üretim Tariflerini Öğrenin",
-        "step1Description": "Apotheosis kullanarak temel araçları ve silahları nasıl üreteceğinizi keşfedin",
-        "step2Title": "Ekipmanı Optimize Edin",
-        "step2Description": "Oyun tarzınız ve ilerleme aşamanız için en iyi eşyaları seçin",
-        "step3Title": "Hayatta Kalmayı Geliştirin",
-        "step3Description": "Tehlikeli dünyada gezinmek için hareket ekipmanları ve silahlar kuşanın"
-      },
-      "featured": "Öne Çıkanlar ve Temel Bilgiler",
-      "all": "Tüm Eşyalar"
-    },
-    "biomes": {
-      "title": "Lucid Blocks Biyomları",
-      "description": "Her biyom için dünya bölgelerini, çevresel özellikleri, kaynak konumlarını ve hayatta kalma ipuçlarını keşfedin.",
-      "metaTitle": "Lucid Blocks Biyomları - Dünya Bölgeleri ve Keşif",
-      "metaDescription": "Tiamana Leylines, Fog Meadow ve gerçeküstü bölgeler dahil olmak üzere Lucid Blocks biyomlarını keşfedin. Kaynakları bulun, tehlikelerden kaçının ve sonsuz dünyada gezinin.",
-      "categoryLabel": "DÜNYA BÖLGELERİ",
-      "whatIs": "Biyomlar Nedir?",
-      "whatIsDescription": "Farklı dünya bölgeleri, çevresel özellikler, kaynak dağılımı ve tehlike bölgeleri rehberleri. Her alan için ne bekleyeceğinizi ve nasıl hazırlanacağınızı öğrenin.",
-      "why": "Neden biyomları keşfetmelisiniz?",
-      "whySteps": {
-        "step1Title": "Kaynakları Bulun",
-        "step1Description": "Her bölgeye özgü nadir malzemeleri ve özleri bulun",
-        "step2Title": "Tehlikelerden Kaçının",
-        "step2Description": "Çevresel tehlikeleri ve düşman yaratıkları anlayın",
-        "step3Title": "Keşfi Planlayın",
-        "step3Description": "Her biyom türü için doğru araçları ve ekipmanları hazırlayın"
-      },
-      "featured": "Öne Çıkanlar ve Temel Bilgiler",
-      "all": "Tüm Biyomlar"
-    },
-    "building": {
-      "title": "Lucid Blocks İnşa Etme",
-      "description": "Master Qualia kişisel boyutları, üs inşası, depolama yönetimi ve yaratıcı inşa tekniklerinde ustalaşın.",
-      "metaTitle": "Lucid Blocks İnşa Etme - Qualia ve Üs İnşası",
-      "metaDescription": "Qualia kişisel boyutları, üs inşası, depolama çözümleri ve yaratıcı inşa teknikleri ile Lucid Blocks inşa etme sisteminde ustalaşın.",
-      "categoryLabel": "İNŞA VE ÜSLER",
-      "whatIs": "İnşa Etme Nedir?",
-      "whatIsDescription": "Qualia kişisel boyut sistemi, üs inşası, depolama yönetimi ve yaratıcı inşa rehberleri. Gerçeküstü dünyada güvenli limanınızı oluşturmayı öğrenin.",
-      "why": "Neden üs inşa etmelisiniz?",
-      "whySteps": {
-        "step1Title": "Güvenli Alanlar Oluşturun",
-        "step1Description": "Depolama ve üretim operasyonları için güvenli üsler kurun",
-        "step2Title": "Kaynakları Yönetin",
-        "step2Description": "Depolama çözümleriyle malzemeleri verimli bir şekilde düzenleyin",
-        "step3Title": "Qualia Kilidini Açın",
-        "step3Description": "Üstün kolaylık için kişisel cep boyutlarına erişin"
-      },
-      "featured": "Öne Çıkanlar ve Temel Bilgiler",
-      "all": "Tüm İnşa Rehberleri"
-    },
-    "support": {
-      "title": "Lucid Blocks Destek",
-      "description": "Teknik destek, platform uyumluluğu, performans optimizasyonu ve yaygın sorunlar için sorun giderme.",
-      "metaTitle": "Lucid Blocks Destek - Teknik Yardım ve Çözümler",
-      "metaDescription": "Steam Deck kurulumu, çökme düzeltmeleri, performans optimizasyonu ve platform uyumluluk rehberleri dahil olmak üzere Lucid Blocks için teknik destek alın.",
-      "categoryLabel": "TEKNİK DESTEK",
-      "whatIs": "Destek Nedir?",
-      "whatIsDescription": "Platform uyumluluğu, performans optimizasyonu, çökme düzeltmeleri ve yaygın sorunları kapsayan teknik rehberler. Steam Deck, çok oyunculu soruları ve ayarlar hakkında yardım alın.",
-      "why": "Neden desteği kontrol etmelisiniz?",
-      "whySteps": {
-        "step1Title": "Teknik Sorunları Düzeltin",
-        "step1Description": "Çökmeleri, performans sorunlarını ve uyumluluk problemlerini çözün",
-        "step2Title": "Performansı Optimize Edin",
-        "step2Description": "Platformunuzda en iyi deneyim için ayarları yapılandırın",
-        "step3Title": "Platform Uyumluluğu",
-        "step3Description": "Steam Deck, kontrolcü desteği ve sistem gereksinimleri hakkında bilgi edinin"
-      },
-      "featured": "Öne Çıkanlar ve Temel Bilgiler",
-      "all": "Tüm Destek Makaleleri"
-    }
-  }
+  "pages": {}
 }
