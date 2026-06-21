@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "poppyplaytimechapter6-wiki",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2025-03-10",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "routes": [
+    { "pattern": "www.poppyplaytimechapter6.wiki/*", "zone_name": "poppyplaytimechapter6.wiki" }
+  ]
+}
