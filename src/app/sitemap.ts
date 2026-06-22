@@ -2,6 +2,9 @@ import { MetadataRoute } from 'next'
 import { getAllContent, CONTENT_TYPES, type ContentType } from '@/lib/content'
 import { routing, type Locale } from '@/i18n/routing'
 
+// 静态导出（output: export）要求 sitemap 路由强制静态生成
+export const dynamic = 'force-static'
+
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://poppyplaytimechapter6.wiki'
 
 // 静态页面配置
