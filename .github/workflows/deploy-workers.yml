@@ -83,10 +83,17 @@ jobs:
         run: |
           set -e
           if [ ! -d out/en ]; then echo "❌ out/en 不存在，静态导出可能失败"; ls -la out || true; exit 1; fi
+          # 内容页/静态页在 out/en/ 目录内，整体提升到根
           cp -r out/en/. out/
-          [ -f out/en/index.html ] && cp -f out/en/index.html out/index.html || true
+          # 首页：trailingSlash:false 下 en 首页导出为 out/en.html（目录外兄弟文件），需单独提升为根 index
+          if [ -f out/en.html ]; then cp -f out/en.html out/index.html
+          elif [ -f out/en/index.html ]; then cp -f out/en/index.html out/index.html
+          else echo "❌ 找不到 en 首页(out/en.html 或 out/en/index.html)"; ls out/en* || true; exit 1; fi
+          # 404 页提升到根（供 not_found_handling=404-page 使用）
           [ -f out/en/404.html ] && cp -f out/en/404.html out/404.html || true
-          echo "根目录页面抽样："; ls out/*.html 2>/dev/null | head; echo "out/codes 命中："; ls -d out/codes* 2>/dev/null || true
+          [ -f out/en.html ] && [ ! -f out/404.html ] && [ -f out/en/404.html ] && cp -f out/en/404.html out/404.html || true
+          echo "✓ 根 index：$(ls -la out/index.html 2>/dev/null || echo 缺失)"
+          echo "根目录页面抽样："; ls out/*.html 2>/dev/null | head; echo "out/characters 命中："; ls -d out/characters 2>/dev/null || true
 
       - name: Deploy to Cloudflare Workers (asset-only)
         env:
