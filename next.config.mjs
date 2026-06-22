@@ -9,8 +9,8 @@ const nextConfig = {
   pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
   allowedDevOrigins: ["*.preview.same-app.com"],
 
-  // Docker 部署配置
-  output: 'standalone',
+  // 静态导出：产出纯静态 HTML 到 out/，由 Cloudflare 资产服务器直接返回（0 Worker CPU）
+  output: 'export',
 
   // 性能优化
   compress: true,
